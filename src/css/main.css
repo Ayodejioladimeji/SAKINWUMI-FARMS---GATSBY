@@ -111,7 +111,8 @@ a{
     display:flex;
     align-items: center;
     height:5rem;
-    background:#B66200;
+    /* background:#B66200; */
+    background:blue;
 }
 
 .nav-header{
@@ -137,7 +138,6 @@ height:50px;
     display:flex;
     justify-content: space-between;
     height:5rem;
-    border-bottom:1px solid red;
 }
 
 .nav-links{
@@ -204,7 +204,7 @@ height:50px;
     }
 
     .nav-links a:hover{
-        color:blue;
+        color:rgb(6, 6, 196);
     }
 
     .nav-center {
@@ -224,8 +224,8 @@ THE SECTION OF THE SIDE BAR
 ==================================
 */
 .sidebar {
-    /* background:var(--clr-primary); */
-    background:#B66200;
+    /* background:#B66200; */
+    background:blue;
     position: fixed;
     top: 0;
     left: 0;
@@ -332,7 +332,8 @@ Sidebar Animation
   .hero{
     height:45rem;
     text-align:center;
-    background:#B66200;
+    /* background:#B66200; */
+    background:blue;
   }
   
   .hero-image{
@@ -343,6 +344,7 @@ Sidebar Animation
     object-fit:cover;
     width:100%;
     height:100%;
+    background-attachment: fixed;
   }
 
   .carousel-div{
@@ -382,7 +384,8 @@ Sidebar Animation
 
   .carousel-div .btn-explore{
     padding:15px 25px;
-    background:red;
+    /* background:red; */
+    background:blue;
     color:white;
     border:none;
     outline:none;
@@ -441,7 +444,8 @@ Sidebar Animation
   
     .carousel-div .btn-explore{
       padding:22px 35px;
-      background:#B66200;
+      /* background:#B66200; */
+      background:blue;
       color:white;
       border:none;
       outline:none;

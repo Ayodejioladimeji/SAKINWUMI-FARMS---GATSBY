@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     z-index: 1000;
+    background:blue;
     }
 
     .nav-center {
@@ -18,12 +19,13 @@
     margin: 0 auto;
     display:flex;
     justify-content: space-between;
+    background:blue;
     }
     .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size:10px;
+    font-size:9px;
     margin-top:4px;
     }
     .nav-header img {
@@ -72,7 +74,7 @@
     font-size: 1.6rem;
     background: transparent;
     border-color: transparent;
-    color: violet;
+    color: white;
     cursor: pointer;
     outline:none;
     }
@@ -85,13 +87,23 @@
     .hero{
         height:31rem;
         text-align:center;
-        background:#B66200;
+        /* background:#B66200; */
+        background:blue;
     }
       
     .hero-image{
         height:24rem;
     }
     
+
+    .carousel-div{
+        z-index:999999;
+        position:absolute;
+        top:15%;
+        left:5%;
+        text-align:left;
+        padding:0 15px 0 0;
+      }
 
     .carousel-div h3{
         font-size:15px;
@@ -121,7 +133,8 @@
 
     .carousel-div .btn-explore{
         padding:12px 18px;
-        background:#B66200;
+        /* background:#B66200; */
+        background:blue;
         color:white;
         border:none;
         outline:none;
@@ -556,12 +569,23 @@
     .hero{
         height:37rem;
         text-align:center;
-        background:#B66200;
+        /* background:#B66200; */
+        background:blue;
     }
       
     .hero-image{
         height:30rem;
     }
+
+    .carousel-div{
+        z-index:999999;
+        position:absolute;
+        top:15%;
+        left:5%;
+        text-align:left;
+        padding:0 15px 0 0;
+      }
+
     .carousel-div h3{
         font-size:17px;
         color:white;
@@ -590,7 +614,8 @@
 
     .carousel-div .btn-explore{
         padding:12px 18px;
-        background:#B66200;
+        /* background:#B66200; */
+        background:blue;
         color:white;
         border:none;
         outline:none;

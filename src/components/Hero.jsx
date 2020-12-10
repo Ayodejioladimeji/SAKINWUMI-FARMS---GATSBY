@@ -2,52 +2,26 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+import hero from '../constants/hero'
+
 const Hero = () => {
     return (
         <div className="hero">
-             <Carousel autoPlay>
-                <div className="hero-image">
-                    <div className="carousel-div">
-                        <h3>#1 POULTRY PROVIDER</h3>
-                        <h1>PREMIUM QUALITY</h1>
-                        <p>Our poultry farm provides the best fresh products for local residents, markets and stores in the state.</p>
-                        <button className="btn-explore">EXPLORE</button>
-                    </div> 
-                    <img alt="" src="https://images.unsplash.com/photo-1502900166467-e5fe8d43f857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80" /> 
-                </div>
-                
-                <div className="hero-image">
-                    <div className="carousel-div">
-                        <h3>#1 POULTRY PROVIDER</h3>
-                        <h1>PREMIUM QUALITY</h1>
-                        <p>Our poultry farm provides the best fresh products for local residents, markets and stores in the state.</p>
-                        <button className="btn-explore">EXPLORE</button>
-                    </div> 
-                    <img alt="" src="https://images.unsplash.com/photo-1502900166467-e5fe8d43f857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80" /> 
-                </div>
-                
-                <div className="hero-image">
-                    <div className="carousel-div">
-                        <h3>#1 POULTRY PROVIDER</h3>
-                        <h1>PREMIUM QUALITY</h1>
-                        <p>Our poultry farm provides the best fresh products for local residents, markets and stores in the state.</p>
-                        <button className="btn-explore">EXPLORE</button>
-                    </div> 
-                    <img alt="" src="https://images.unsplash.com/photo-1502900166467-e5fe8d43f857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80" /> 
-                </div>
-
-                <div className="hero-image">
-                    <div className="carousel-div">
-                        <h3>#1 POULTRY PROVIDER</h3>
-                        <h1>PREMIUM QUALITY</h1>
-                        <p>Our poultry farm provides the best fresh products for local residents, markets and stores in the state.</p>
-                        <button className="btn-explore">EXPLORE</button>
-                    </div> 
-                    <img alt="" src="https://images.unsplash.com/photo-1502900166467-e5fe8d43f857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80" /> 
-                </div>
-               
-                
-                
+             <Carousel autoPlay>           
+                {hero.map((data)=>{
+                    const {id,icon, intro, title, text} = data
+                    return(
+                        <div className="hero-image" key={id}>
+                            <div className="carousel-div">
+                                <h3>{intro}</h3>
+                                <h1>{title}</h1>
+                                <p>{text}</p>
+                                <button className="btn-explore">EXPLORE</button>
+                            </div> 
+                            {icon} 
+                        </div>  
+                    )
+                })}
             </Carousel>
         </div>
     )
