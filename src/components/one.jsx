@@ -21,6 +21,7 @@ const one = () => {
                         <p>{text}</p>
 
                         <div className="mouse-over">
+                            {icon}
                             <h4>{title}</h4>
                             <div className="underline"></div>
                             <p>{text}</p>

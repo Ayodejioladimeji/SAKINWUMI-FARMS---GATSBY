@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     z-index: 1000;
-    background:blue;
     }
 
     .nav-center {
@@ -19,7 +18,6 @@
     margin: 0 auto;
     display:flex;
     justify-content: space-between;
-    background:blue;
     }
     .nav-header {
     display: flex;
@@ -29,7 +27,7 @@
     margin-top:4px;
     }
     .nav-header img {
-    margin-bottom: 0.375rem;
+    margin-bottom: 0;
     width:30px;
     height:30px;
     margin-right:3px;
@@ -87,8 +85,7 @@
     .hero{
         height:31rem;
         text-align:center;
-        /* background:#B66200; */
-        background:blue;
+        background:#B66200;
     }
       
     .hero-image{
@@ -100,17 +97,21 @@
         z-index:999999;
         position:absolute;
         top:15%;
-        left:5%;
+        left:0;
+        right:0;
+        margin:0 auto;
+        width:90%;
         text-align:left;
-        padding:0 15px 0 0;
+        padding:0 15px 20px 10px;
       }
 
     .carousel-div h3{
         font-size:15px;
-        color:white;
+        color:red;
         font-weight:bold;
-        font-family:monospace;
+        font-family:Tahoma;
         margin-top:20px;
+        text-shadow:1px 1px white;
     }
 
     .carousel-div h1{
@@ -118,7 +119,7 @@
         color:white;
         font-weight:bold;
         font-family:arial;
-        margin-top:30px;
+        margin-top:20px;
         margin-bottom:20px;
     }
 
@@ -133,8 +134,7 @@
 
     .carousel-div .btn-explore{
         padding:12px 18px;
-        /* background:#B66200; */
-        background:blue;
+        background:orangered;
         color:white;
         border:none;
         outline:none;
@@ -155,23 +155,30 @@
         background:#b661009f;
         padding:10px;
     }
+
     
+    .heading{
+        background:#b661009f;
+        width:90%;
+        margin:0 auto;
+        margin-bottom:20px;
+    }
 
     .heading h3{
     font-family:monospace;
     font-size:15px;
     padding:20px 0 0 0;
-    color:red;
+    color:white;
     font-weight:bold;
-    text-shadow:1px 0px #fff;
+    text-shadow:1px 0px red;
     }
     
     .heading h1{
     font-family:arial;
     padding:10px 0;
-    color:red;
+    color:white;
     font-weight:bold;
-    text-shadow:1px 1px #fff;
+    text-shadow:2px 2px red;
     font-size:22px;
     }
 
@@ -226,7 +233,7 @@
         }
         
         .two-button{
-        background:red;
+        background:green;
         padding:13px 18px;
         color:white;
         font-size:10px;
@@ -287,7 +294,7 @@
         .table-one img{
         height:60px;
         width:60px;
-        border:2px solid #B66200;
+        border:2px solid green;
         border-radius:150px;
         padding:8px;
         margin-right:10px;
@@ -319,7 +326,7 @@
         .three-center img{
         width:80px;
         height:80px;
-        border:1px solid white;
+        border:2px solid white;
         border-radius: 150px;
         padding:5px;
         }
@@ -337,35 +344,11 @@
         color:white;
         font-size:20px;
         font-family:arial;
-        text-shadow:3px 3px #492803;
-        }
-    
-        .three-text h2{
-        color:white;
-        font-size:17px;
-        font-family:arial;
-        text-shadow:3px 3px #492803;
-        }
-    
-    
-        .btn-one{
-        background:red;
-        color:white;
-        padding:13px 20px;
-        border:none;
-        outline:none;
-        font-weight:bold;
-        margin-right:20px;
-        cursor:pointer;
-        font-size:13px;
-        }
-    
-        .btn-one:hover{
-        background:#492803;
+        text-shadow:2px 2px red;
         }
     
         .btn-two{
-        background:#492803;
+        background:green;
         color:white;
         padding:13px 20px;
         border:none;
@@ -373,6 +356,10 @@
         cursor:pointer;
         font-weight:bold;
         font-size:13px;
+        }
+
+        .btn-two:hover{
+            background:red;
         }
 
 
@@ -390,7 +377,7 @@
         }
         
         .image-container img{
-        width:200%;
+        width:220%;
         height:100%;
         object-fit:cover;
         border:1px solid #B66200;
@@ -430,14 +417,33 @@
         }
         
       
-      .job-btn {
-        font-size: 0.5rem;
-      }
-    
-      
-      .job-info {
-        padding:0 5px;
-      }
+        .job-btn {
+            font-size: 0.6rem;
+          }
+        
+          
+        .job-info {
+        padding:0 10px 20px 10px;
+        }
+
+        .job-desc p{
+            font-size:13px;
+        }
+
+        .loading{
+            text-align:center;
+            padding:100px 50px;
+        }
+        
+        .loading h1{
+            color:green;
+            font-family:cursive;
+            font-size:25px;
+        }
+        
+        .loading p{
+            font-size:15px;
+        }
 
 
 
@@ -512,10 +518,11 @@
     margin-top:4px;
     }
     .nav-header img {
-    margin-bottom: 0.375rem;
+    margin-top:0;
     width:30px;
     height:30px;
     margin-right:3px;
+    margin-bottom:0;
     }
     .toggle-btn {
     font-size: 1.4rem;
@@ -569,8 +576,7 @@
     .hero{
         height:37rem;
         text-align:center;
-        /* background:#B66200; */
-        background:blue;
+        background:#B66200;
     }
       
     .hero-image{
@@ -580,18 +586,22 @@
     .carousel-div{
         z-index:999999;
         position:absolute;
-        top:15%;
-        left:5%;
+        top:20%;
+        left:0;
+        right:0;
+        margin:0 auto;
+        width:90%;
         text-align:left;
-        padding:0 15px 0 0;
+        padding:0 15px 20px 10px;
       }
 
     .carousel-div h3{
         font-size:17px;
-        color:white;
+        color:red;
         font-weight:bold;
         font-family:monospace;
         margin-top:20px;
+        text-shadow: 1px 1px white;
     }
 
     .carousel-div h1{
@@ -599,7 +609,7 @@
         color:white;
         font-weight:bold;
         font-family:arial;
-        margin-top:30px;
+        margin-top:20px;
         margin-bottom:20px;
     }
 
@@ -607,15 +617,14 @@
         color:white;
         font-size:11px;
         font-weight:bold;
-        font-family:monospace;
+        font-family:Tahoma;
         letter-spacing:2px;
         width:90%;
     }
 
     .carousel-div .btn-explore{
         padding:12px 18px;
-        /* background:#B66200; */
-        background:blue;
+        background:orangered;
         color:white;
         border:none;
         outline:none;
@@ -637,11 +646,18 @@
         padding:10px;
     }
 
+    .heading{
+        background:#b661009f;
+        width:90%;
+        margin:0 auto;
+        margin-bottom:20px;
+    }
+
     .heading h3{
     font-family:monospace;
     font-size:18px;
     padding:20px 0 0 0;
-    color:red;
+    color:white;
     font-weight:bold;
     text-shadow:1px 0px #fff;
     }
@@ -649,9 +665,9 @@
     .heading h1{
     font-family:arial;
     padding:10px 0;
-    color:red;
+    color:white;
     font-weight:bold;
-    text-shadow:1px 1px #fff;
+    text-shadow:2px 2px red;
     font-size:25px;
     }
 
@@ -701,7 +717,7 @@
         }
         
         .two-button{
-        background:red;
+        background:green;
         padding:13px 18px;
         color:white;
         font-size:10px;
@@ -761,7 +777,7 @@
         .table-one img{
         height:60px;
         width:60px;
-        border:2px solid #B66200;
+        border:2px solid green;
         border-radius:150px;
         padding:8px;
         margin-right:10px;
@@ -793,7 +809,7 @@
         .three-center img{
         width:80px;
         height:80px;
-        border:1px solid white;
+        border:2px solid white;
         border-radius: 150px;
         padding:5px;
         }
@@ -811,35 +827,11 @@
         color:white;
         font-size:20px;
         font-family:arial;
-        text-shadow:3px 3px #492803;
-        }
-    
-        .three-text h2{
-        color:white;
-        font-size:17px;
-        font-family:arial;
-        text-shadow:3px 3px #492803;
-        }
-    
-    
-        .btn-one{
-        background:red;
-        color:white;
-        padding:13px 20px;
-        border:none;
-        outline:none;
-        font-weight:bold;
-        margin-right:20px;
-        cursor:pointer;
-        font-size:13px;
-        }
-    
-        .btn-one:hover{
-        background:#492803;
+        text-shadow:2px 2px red;
         }
     
         .btn-two{
-        background:#492803;
+        background:green;
         color:white;
         padding:13px 20px;
         border:none;
@@ -847,6 +839,10 @@
         cursor:pointer;
         font-weight:bold;
         font-size:13px;
+        }
+
+        .btn-two:hover{
+            background:red;
         }
 
     /* 
@@ -863,7 +859,7 @@
         }
         
         .image-container img{
-        width:200%;
+        width:210%;
         height:100%;
         object-fit:cover;
         border:1px solid #B66200;
@@ -904,13 +900,32 @@
         
       
       .job-btn {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
       }
     
       
       .job-info {
-        padding:0 5px;
+        padding:0 10px 20px 10px;
       }
+
+      .job-desc p{
+        font-size:13px;
+    }
+
+    .loading{
+        text-align:center;
+        padding:100px 50px;
+    }
+    
+    .loading h1{
+        color:green;
+        font-family:cursive;
+        font-size:25px;
+    }
+    
+    .loading p{
+        font-size:15px;
+    }
 
 
       
@@ -990,7 +1005,7 @@
     margin-top:4px;
     }
     .nav-header img {
-    margin-bottom: 0.375rem;
+    margin-bottom: 0;
     width:35px;
     height:35px;
     margin-right:3px;
@@ -1077,14 +1092,14 @@
         color:white;
         font-size:11px;
         font-weight:bold;
-        font-family:monospace;
+        font-family:Tahoma;
         letter-spacing:2px;
         width:90%;
     }
 
     .carousel-div .btn-explore{
         padding:12px 18px;
-        background:#B66200;
+        background:orangered;
         color:white;
         border:none;
         outline:none;
@@ -1106,21 +1121,28 @@
         padding:10px;
     }
 
+    .heading{
+        background:#b661009f;
+        width:90%;
+        margin:0 auto;
+        margin-bottom:20px;
+    }
+
     .heading h3{
     font-family:monospace;
     font-size:18px;
     padding:20px 0 0 0;
-    color:red;
+    color:white;
     font-weight:bold;
-    text-shadow:1px 0px #fff;
+    text-shadow:1px 0px green;
     }
     
     .heading h1{
     font-family:arial;
     padding:10px 0;
-    color:red;
+    color:white;
     font-weight:bold;
-    text-shadow:1px 1px #fff;
+    text-shadow:2px 2px red;
     font-size:25px;
     }
 
@@ -1171,7 +1193,7 @@
     }
     
     .two-button{
-    background:red;
+    background:green;
     padding:13px 18px;
     color:white;
     font-size:10px;
@@ -1185,9 +1207,10 @@
     }
     
     .two-button:hover{
-    background:#B66200;
+    background:red;
     
     }
+
 
     /* 
     ============================
@@ -1231,7 +1254,7 @@
     .table-one img{
     height:60px;
     width:60px;
-    border:2px solid #B66200;
+    border:2px solid green;
     border-radius:150px;
     padding:8px;
     margin-right:10px;
@@ -1281,35 +1304,11 @@
     color:white;
     font-size:22px;
     font-family:arial;
-    text-shadow:3px 3px #492803;
-    }
-
-    .three-text h2{
-    color:white;
-    font-size:18px;
-    font-family:arial;
-    text-shadow:3px 3px #492803;
-    }
-
-
-    .btn-one{
-    background:red;
-    color:white;
-    padding:13px 20px;
-    border:none;
-    outline:none;
-    font-weight:bold;
-    margin-right:20px;
-    cursor:pointer;
-    font-size:13px;
-    }
-
-    .btn-one:hover{
-    background:#492803;
+    text-shadow:1px 1px red;
     }
 
     .btn-two{
-    background:#492803;
+    background:green;
     color:white;
     padding:13px 20px;
     border:none;
@@ -1371,17 +1370,38 @@
         width: 90vw;
         background:#B66200;
         margin:0 auto;
+        padding-bottom:20px;
         }
         
       
       .job-btn {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
       }
     
       
       .job-info {
-        padding:0 5px;
+        padding:0 10px 20px 10px;
       }
+
+      .job-desc p{
+          font-size:13px;
+      }
+
+      
+    .loading{
+        text-align:center;
+        padding:100px 50px;
+    }
+    
+    .loading h1{
+        color:green;
+        font-family:cursive;
+        font-size:25px;
+    }
+    
+    .loading p{
+        font-size:15px;
+    }
     
      
       
@@ -1397,21 +1417,21 @@
   
   .five-header{
     text-align:center;
-    padding:0 30px 50px 30px;
+    padding:10px 30px 50px 30px;
   }
   
   .five-header h3{
     font-family:monospace;
     font-size:20px;
     font-weight:bold;
-    /* color:red; */
+    color:red;
   }
   
   .five-header h1{
     font-family:arial;
     font-size:35px;
     font-weight:bold;
-    color:red;
+    color:green;
   }
   
   .five button{

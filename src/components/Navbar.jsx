@@ -1,6 +1,6 @@
 import React from 'react'
 import PageLinks from '../constants/links'
-import chicken from '../assets/chicken.svg'
+import chicken from '../assets/sprout.png'
 import { FaList} from "react-icons/fa"
 
 const Navbar = ({toggleSidebar}) => {
@@ -10,8 +10,7 @@ const Navbar = ({toggleSidebar}) => {
                 <div className="nav-header">
                     <img src={chicken} alt="chicken"/>
                     <div>
-                        <h2>SAKINWUMI</h2>
-                        <h3>FARMS</h3>
+                        <h2>Sakinwumi Farms</h2>
                     </div>
                 </div>
 

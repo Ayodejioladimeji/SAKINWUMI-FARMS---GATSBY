@@ -1,5 +1,5 @@
 import React from 'react'
-import one from '../assets/hen.jpg'
+import gallery from '../constants/gallery'
 import {Link} from 'gatsby'
 
 const Five = () => {
@@ -8,27 +8,18 @@ const Five = () => {
             <div className="five-header">
                 <h3>WHAT WE OFFER</h3>
                 <h1>OUR GALLERY</h1>
+                <div className="underline"></div>
             </div>
 
             <div className="five-center">
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
-                <div class="gallery-image">
-                    <img src={one} alt="gallery-images"/>
-                </div>
+            {gallery.map((data)=>{
+                       const {icon} = data
+                        return(
+                            <div class="gallery-image">
+                                {icon}
+                            </div>
+                        )
+                   })}
             </div>
             <Link to="/gallery">
                 <button>View Gallery</button>

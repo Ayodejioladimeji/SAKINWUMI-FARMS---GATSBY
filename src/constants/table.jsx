@@ -1,7 +1,7 @@
 import React from "react"
-import agric from '../assets/agric.svg'
-import sprout from '../assets/sprout.svg'
-import farmer from '../assets/farmer.svg'
+import agric from '../assets/ecology.svg'
+import sprout from '../assets/plants.svg'
+import farmer from '../assets/wheat.svg'
 
 
 export default [

@@ -1,7 +1,8 @@
 import React from 'react'
 import table from '../constants/table'
-import feeds from '../assets/feeds.jpg'
+import feeds from '../assets/sea.jpg'
 import sprout from '../assets/harvest.svg'
+import {Link} from 'gatsby'
 
 const Three = () => {
     return (
@@ -29,8 +30,9 @@ const Three = () => {
                         <h1>Agriculture Is Providing The Best Solution of Eco Environment</h1>
                    </div>
                    <div className="three-buttons">
-                       <button className="btn-one">CONTACT</button>
-                       <button className="btn-two">SERVICES</button>
+                        <Link to="/services">
+                            <button className="btn-two">SERVICES</button>
+                        </Link>
                    </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
 
-        <div className="footer-center">
+        <div className="footer-center" style={{display:'none'}}>
             <div className="service footer-one">
                 This is the footer one
             </div>

@@ -111,24 +111,24 @@ a{
     display:flex;
     align-items: center;
     height:5rem;
-    /* background:#B66200; */
-    background:blue;
+    background:#B66200;
 }
 
 .nav-header{
   text-align:center;
-  font-family:monospace;
-  font-size:13px;
+  font-family:cursive;
+  font-size:12px;
   line-height: 20px;
   color:#fff;
   display:flex;
   justify-content: center;
   align-items: center;
+  text-shadow:1px 1px green;
 }
 
 .nav-header img{
-width:50px;
-height:50px;
+width:45px;
+height:45px;
 }
 
 .navbar .nav-center{
@@ -144,14 +144,25 @@ height:50px;
     display:none;
 }
 
+.active-Nav{
+  background:red;
+  padding:10px;
+  font-size:50px;
+}
+
 .toggle-btn{
     font-size:1.6rem;
     background:transparent;
     border-color:transparent;
     cursor:pointer;
     transition:var(--transition);
-    outline:none;
+    outline:none!important;
     color:#fff;
+    margin-top:10px;
+}
+
+.toggle-btn:focus{
+  outline:none;
 }
 
 .toggle-btn:hover{
@@ -172,20 +183,19 @@ height:50px;
 
     .nav-header{
         text-align:center;
-        font-family:monospace;
-        font-size:16px;
+        font-family:cursive;
+        font-size:12px;
         line-height: 20px;
         color:#fff;
         display:flex;
         justify-content: center;
         align-items: center;
-        text-shadow:1px 1px red;
-        margin-top:5px;
+        text-shadow:1px 1px green;
     }
 
     .nav-header img{
-      width:50px;
-      height:50px;
+      width:45px;
+      height:45px;
     }
 
     .toggle-btn {
@@ -198,13 +208,15 @@ height:50px;
         color:var(--clr-primary);
         font-weight:normal;
         transition:var(--transition);
-        padding:0.5rem 0;
         font-family:var(--ff-primary);
-        font-size:17px;
+        font-size:15px;
     }
 
-    .nav-links a:hover{
-        color:rgb(6, 6, 196);
+
+    .activeNav{
+      background:orangered;
+      padding:10px 15px;
+      border-radius:5px;
     }
 
     .nav-center {
@@ -224,8 +236,7 @@ THE SECTION OF THE SIDE BAR
 ==================================
 */
 .sidebar {
-    /* background:#B66200; */
-    background:blue;
+    background:#B66200;
     position: fixed;
     top: 0;
     left: 0;
@@ -272,7 +283,7 @@ THE SECTION OF THE SIDE BAR
     font-size: 1.8rem;
     background: transparent;
     border-color: transparent;
-    color:maroon;
+    color:orangered;
     cursor: pointer;
     outline:none;
   }
@@ -332,8 +343,7 @@ Sidebar Animation
   .hero{
     height:45rem;
     text-align:center;
-    /* background:#B66200; */
-    background:blue;
+    background:#B66200;
   }
   
   .hero-image{
@@ -351,41 +361,47 @@ Sidebar Animation
     z-index:999999;
     position:absolute;
     top:15%;
-    left:10%;
+    left:0;
+    right:0;
     text-align:left;
-    padding:0 15px 0 0;
+    padding:0 15px 20px 20px;
+    background:#b6610042;
+    border-radius:10px;
+    width:90%;
+    margin:0 auto;
   }
 
   .carousel-div h3{
     font-size:20px;
-    color:white;
+    color:red;
     font-weight:bold;
     font-family:monospace;
     margin-top:20px;
+    text-shadow:1px 1px white;
   }
 
   .carousel-div h1{
-    font-size:45px;
+    font-size:40px;
     color:white;
     font-weight:bold;
     font-family:arial;
     margin-top:30px;
     margin-bottom:20px;
+    text-shadow:3px 3px red;
   }
 
   .carousel-div p{
     color:white;
     font-size:13px;
     font-weight:bold;
-    font-family:monospace;
+    font-family:Tahoma;
     letter-spacing:2px;
     width:50%;
   }
 
   .carousel-div .btn-explore{
     padding:15px 25px;
-    /* background:red; */
-    background:blue;
+    background:red;
     color:white;
     border:none;
     outline:none;
@@ -403,11 +419,23 @@ Sidebar Animation
 
 
   @media screen and (min-width:426px) and (max-width:768px){
+    
+    .carousel-div{
+      position:absolute;
+      top:20%;
+      left:0;
+      right:0;
+      text-align:left;
+      padding:0 15px 20px 20px;
+      width:90%;
+      margin:0 auto;
+    }
+
     .carousel-div p{
       color:white;
       font-size:13px;
       font-weight:bold;
-      font-family:monospace;
+      font-family:Tahoma;
       letter-spacing:2px;
       width:90%;
     }
@@ -418,34 +446,35 @@ Sidebar Animation
   
     .carousel-div h3{
       font-size:25px;
-      color:white;
+      color:red;
       font-weight:bold;
       font-family:monospace;
       margin-top:20px;
+      text-shadow:1px 1px white;
     }
   
     .carousel-div h1{
-      font-size:75px;
+      font-size:70px;
       color:white;
       font-weight:bold;
       font-family:arial;
       margin-top:30px;
       margin-bottom:20px;
+      text-shadow:3px 3px red;
     }
   
     .carousel-div p{
       color:white;
       font-size:18px;
-      font-weight:bold;
-      font-family:monospace;
+      font-weight:normal;
+      font-family:Tahoma;
       letter-spacing:2px;
       width:50%;
     }
   
     .carousel-div .btn-explore{
       padding:22px 35px;
-      /* background:#B66200; */
-      background:blue;
+      background:orangered;
       color:white;
       border:none;
       outline:none;
@@ -453,7 +482,8 @@ Sidebar Animation
       font-weight:bold;
       border-radius:5px;
       cursor:pointer;
-      transition:var(--transition)
+      transition:var(--transition);
+      font-weight:bold;
     }
   }
 
@@ -471,24 +501,25 @@ THE SECTION OF THE ONE
   text-align:center;
   background-position:center;
   background-size:cover;
-  padding:50px 0 0 0;
+  padding:50px 0 150px 0;
 }
 
 .heading h3{
   font-family:monospace;
   font-size:20px;
   padding:20px 0 0 0;
-  color:red;
-  font-weight:bold;
+  color:white;
+  font-weight:normal;
   text-shadow:1px 0px #fff;
 }
 
 .heading h1{
   font-family:arial;
   padding:10px 0;
-  color:red;
-  font-weight:bold;
+  color:white;
+  font-weight:normal;
   text-shadow:1px 1px #fff;
+  font-size:34px;
 }
 
 .service {
@@ -502,6 +533,7 @@ THE SECTION OF THE ONE
   position:relative;
   background:#000000b6;
   overflow:hidden;
+  height:300px!important;
 }
 
 
@@ -532,7 +564,9 @@ THE SECTION OF THE ONE
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  color: white
+  color: white;
+  font-family:Tahoma;
+  font-size:14px;
 }
 
 
@@ -552,13 +586,17 @@ THE SECTION OF THE ONE
   bottom: 0;
   right: 0;
   left: 0;
-  background: #B66200;
+  background: #fff;
   transform: translateY(100%);
   transition: transform 0.5s ease-in-out;
   overflow: auto;
   height: 100%;
   font-family: monospace;
   padding: 3rem 1.5rem;
+}
+
+.mouse-over h4{
+  color:#b66100c9;
 }
 
 
@@ -605,6 +643,8 @@ THE SECTION OF THE ONE
 }
 
 
+
+
 /*
  ============================
   THE SECTION OF THE TWO
@@ -649,7 +689,7 @@ THE SECTION OF THE ONE
  }
 
  .two-button{
-   background:red;
+   background:green;
    padding:15px 20px;
    color:white;
    font-size:12px;
@@ -722,7 +762,7 @@ THE SECTION OF THE ONE
   }
  
   .two-center{
-    background:#b66100c9;
+    background:#b6610098;
     width:80%;
     margin:auto;
     text-align:center;
@@ -742,12 +782,12 @@ THE SECTION OF THE ONE
     color:white;
     text-align:center;
     font-size:22px;
-    font-family:arial;
+    font-family:Tahoma;
     font-weight:normal;
   }
  
   .two-button{
-    background:red;
+    background:green;
     padding:15px 25px;
     color:white;
     font-size:14px;
@@ -761,7 +801,7 @@ THE SECTION OF THE ONE
   }
  
   .two-button:hover{
-    background:#B66200;
+    background:red;
  
   }
  
@@ -813,7 +853,7 @@ THE SECTION OF THE ONE
 .table-one img{
   height:65px;
   width:65px;
-  border:2px solid #B66200;
+  border:2px solid green;
   border-radius:150px;
   padding:8px;
   margin-right:10px;
@@ -969,8 +1009,6 @@ THE SECTION OF THE ONE
   .table-one img{
     height:55px;
     width:55px;
-    border:2px solid #B66200;
-    border-radius:150px;
     padding:8px;
     margin-right:10px;
   }
@@ -1022,7 +1060,7 @@ THE SECTION OF THE ONE
   }
   
   .three-cover{
-    /* background:#b661008f; */
+    background:#b6610069;
     height:90vh;
   }
   
@@ -1053,8 +1091,6 @@ THE SECTION OF THE ONE
   .table-one img{
     height:65px;
     width:65px;
-    border:2px solid #B66200;
-    border-radius:150px;
     padding:8px;
     margin-right:10px;
   }
@@ -1101,10 +1137,10 @@ THE SECTION OF THE ONE
   }
   
   .three-text h1{
-    color:white;
+    color:#fff;
     font-size:45px;
     font-family:arial;
-    text-shadow:3px 3px #492803;
+    text-shadow:2px 2px red;
     width:80%;
     margin:auto;
   }
@@ -1113,29 +1149,16 @@ THE SECTION OF THE ONE
     margin-top:15px;
   }
   
-  .btn-one{
-    background:red;
-    color:white;
-    padding:15px 25px;
-    border:none;
-    outline:none;
-    font-weight:bold;
-    margin-right:20px;
-    cursor:pointer;
-  }
-  
-  .btn-one:hover{
-    background:#492803;
-  }
   
   .btn-two{
-    background:#492803;
+    background:green;
     color:white;
-    padding:15px 25px;
+    padding:15px 35px;
     border:none;
     outline:none;
     cursor:pointer;
     font-weight:bold;
+    transition:var(--transition)
   }
 }
 
@@ -1172,6 +1195,28 @@ THE SECTION OF THE ONE
   border:1px solid #B66200;
 }
 
+.loading{
+  text-align:center;
+  padding:100px;
+}
+
+.loading h1{
+  color:green;
+  font-family:cursive;
+  font-size:35px;
+
+}
+
+.loading h3{
+  color:red;
+  font-family:arial;
+}
+
+.loading p{
+  color:#999;
+  font-family:arial;
+}
+
 
 @media screen and (min-width:992px){
   .four-center{
@@ -1182,6 +1227,8 @@ THE SECTION OF THE ONE
   .jobs-center {
     width: 40vw;
     background:#B66200;
+    margin-top:30px;
+    transition:var(--transition);
   }
 
 }
@@ -1314,9 +1361,9 @@ THE SECTION OF THE ONE
 
 .job-info {
   transition: var(--transition);
-  padding:0 15px 20px 30px;
+  padding:10px 15px 20px 30px;
+  margin-top:-50px;
 }
-
 
 .job-desc {
   display: grid;
@@ -1331,6 +1378,8 @@ THE SECTION OF THE ONE
   margin-bottom: 0;
   color:#fff;
   font-family:monospace;
+  font-family:Tahoma;
+  font-size:14px;
 }
 
 
@@ -1373,12 +1422,14 @@ THE SECTION OF THE ONE
   font-family:monospace;
   font-size:20px;
   font-weight:bold;
+  color:red;
 }
 
 .five-header h1{
   font-family:arial;
-  font-size:35px;
+  font-size:40px;
   font-weight:bold;
+  color:green;
 }
 
 .five button{
