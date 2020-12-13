@@ -1,10 +1,10 @@
 import React from 'react'
 import services from "../constants/one"
-import hen from '../assets/sheep.jpg'
+// import hen from '../assets/sheep.jpg'
 
 const one = () => {
     return (
-       <div className="one" style={{ backgroundImage:`url(${hen})` }}>
+       <div className="one">
             <div className="heading">
                 <h3>WORKING WITH EXCELLENT</h3>
                 <h1>Our Special Services</h1>

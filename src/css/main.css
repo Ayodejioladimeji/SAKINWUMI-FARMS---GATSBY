@@ -516,7 +516,7 @@ THE SECTION OF THE ONE
   font-family:monospace;
   font-size:20px;
   padding:20px 0 0 0;
-  color:white;
+  color:red;
   font-weight:normal;
 }
 
@@ -524,8 +524,8 @@ THE SECTION OF THE ONE
   font-family:arial;
   padding:10px 0;
   color:white;
-  font-weight:normal;
-  text-shadow:1px 1px #fff;
+  font-weight:bold;
+  text-shadow:1px 1px red;
   font-size:34px;
 }
 
