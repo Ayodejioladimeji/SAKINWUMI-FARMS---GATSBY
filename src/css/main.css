@@ -387,7 +387,7 @@ Sidebar Animation
     font-family:arial;
     margin-top:30px;
     margin-bottom:20px;
-    text-shadow:3px 3px red;
+    text-shadow:2px 2px red;
   }
 
   .carousel-div p{
@@ -460,7 +460,7 @@ Sidebar Animation
       font-family:arial;
       margin-top:30px;
       margin-bottom:20px;
-      text-shadow:3px 3px red;
+      text-shadow:2px 2px red;
     }
   
     .carousel-div p{
@@ -504,13 +504,20 @@ THE SECTION OF THE ONE
   padding:50px 0 150px 0;
 }
 
+.heading{
+  background:#b661009f;
+  width:90%;
+  margin:0 auto;
+  margin-bottom:20px;
+  border-radius:10px;
+}
+
 .heading h3{
   font-family:monospace;
   font-size:20px;
   padding:20px 0 0 0;
   color:white;
   font-weight:normal;
-  text-shadow:1px 0px #fff;
 }
 
 .heading h1{

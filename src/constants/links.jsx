@@ -25,8 +25,8 @@ const data = [
     },
     {
         id:5,
-        text:'Login',
-        url:'/login',
+        text:'Gallery',
+        url:'/gallery',
     },
 
 ]

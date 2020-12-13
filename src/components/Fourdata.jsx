@@ -14,14 +14,14 @@ const Fourdata = () => {
   const fetchJobs = async ()=>{
     const response = await fetch(url)
     const newJobs = await response.json()
-    setJobs(newJobs)
-    setLoading(false)
-    console.log(newJobs)
+    setTimeout(()=>{
+      setJobs(newJobs)
+      setLoading(false)
+    }, 15000)
   }
 
   useEffect(() => {
     fetchJobs()
-    console.log("data fetched")
   }, [])
 
   if(loading){
