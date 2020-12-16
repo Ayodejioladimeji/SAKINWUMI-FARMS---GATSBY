@@ -10,7 +10,7 @@ import Testimonials from "../components/Testimonials"
 import Three from "../components/Three"
 import Two from "../components/Two"
 import History from "../components/History"
-
+import Main from "../components/Main"
 
 
 
@@ -19,6 +19,7 @@ export default ()=> {
   return (
     <Layout>
       <Hero/>
+      <Main/>
       <Two/>
       <Three/>
       <Four/>
