@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import services from "../constants/one"
 
 import Aos from "aos"
@@ -6,13 +6,13 @@ import "aos/dist/aos.css"
 
 const One = () => {
 
-    useEffect(()=>{
-        Aos.init({duration:2000});
-      }, []);
+    // useEffect(()=>{
+    //     Aos.init({duration:2000});
+    //   }, []);
     
     return (
        <div className="one">
-            <div className="heading" data-aos="fade-up">
+            <div className="heading">
                 <h3>WORKING WITH EXCELLENT</h3>
                 <h1>Our Special Services</h1>
             </div>
