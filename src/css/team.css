@@ -225,6 +225,7 @@
     .top-right{
         width:100%;
         font-size:16px;
+        font-size:14px;
     }
 
     .team-center{
@@ -248,7 +249,7 @@
         margin:0 auto;
         padding:10px 0;
         border-bottom:5px solid red;
-        font-size:15px;
+        font-size:13px;
     }
 
 }
@@ -267,7 +268,7 @@
 
     .top-right{
         width:100%;
-        font-size:16px;
+        font-size:14px;
     }
 
     .team-center{
@@ -291,7 +292,7 @@
         margin:0 auto;
         padding:10px 0;
         border-bottom:5px solid red;
-        font-size:15px;
+        font-size:13px;
     }
 
 }
@@ -311,7 +312,7 @@
 
     .top-right{
         width:100%;
-        font-size:16px;
+        font-size:15px;
     }
 
     .team-center{

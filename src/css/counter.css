@@ -146,13 +146,13 @@
     
     .count-words h2{
       font-family:monospace;
-      font-size:38px;
+      font-size:35px;
       color:red;
       text-align:center;
     }
     
     .count-words p{
-      font-size:15px;
+      font-size:13px;
       text-align:center;
       font-weight: bold;
     }
@@ -191,13 +191,13 @@
     
     .count-words h2{
       font-family:monospace;
-      font-size:40px;
+      font-size:35px;
       color:red;
       text-align:center;
     }
     
     .count-words p{
-      font-size:15px;
+      font-size:13px;
       text-align:center;
       font-weight: bold;
     }
@@ -235,7 +235,7 @@
     
     .count-words h2{
       font-family:monospace;
-      font-size:40px;
+      font-size:38px;
       color:red;
       text-align:center;
     }

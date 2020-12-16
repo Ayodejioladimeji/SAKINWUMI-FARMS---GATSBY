@@ -106,9 +106,9 @@ figure.snip1104.hover h2 {
   transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
 }
 
-/* figure.snip1104:hover:before,
+figure.snip1104:hover:before,
 figure.snip1104.hover:before {
   -webkit-transform: rotate(110deg) translateY(-150%);
   transform: rotate(110deg) translateY(-150%);
-} */
+}
 
