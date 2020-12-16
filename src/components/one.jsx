@@ -1,15 +1,9 @@
 import React from 'react'
 import services from "../constants/one"
 
-// import Aos from "aos"
-// import "aos/dist/aos.css"
 
 const One = () => {
 
-    // useEffect(()=>{
-    //     Aos.init({duration:2000});
-    //   }, []);
-    
     return (
        <div className="one">
             <div className="heading">
