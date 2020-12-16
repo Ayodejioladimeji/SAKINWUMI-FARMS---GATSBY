@@ -5,7 +5,7 @@ import Five from "../components/Five"
 import Four from "../components/Four"
 import Hero from "../components/Hero"
 import Layout from '../components/Layout'
-import One from "../components/One"
+// import One from "../components/One"
 import Team from "../components/Team"
 import Testimonials from "../components/Testimonials"
 import Three from "../components/Three"
@@ -19,7 +19,7 @@ export default ()=> {
   return (
     <Layout>
       <Hero/>
-      <One/>
+      {/* <One/> */}
       <Two/>
       <Three/>
       <Four/>

@@ -1,8 +1,8 @@
 import React from 'react'
 import services from "../constants/one"
 
-import Aos from "aos"
-import "aos/dist/aos.css"
+// import Aos from "aos"
+// import "aos/dist/aos.css"
 
 const One = () => {
 
