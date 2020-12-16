@@ -1,4 +1,4 @@
-import React, {useEffect} from "react"
+import React from "react"
 import Approach from "../components/Approach"
 import Counter from "../components/Counter"
 import Five from "../components/Five"

@@ -6,9 +6,9 @@ const Counter = () => {
         <div className="counter">
             <div className="count">
                 {counter.map((data)=>{
-                    const {icon, title, text} = data
+                    const {id, icon, title, text} = data
                     return(
-                        <div className="count-one">
+                        <div className="count-one" key={id}>
                             <div className="div-icon">{icon}</div>
                             <div className="count-words">
                                 <h2>{title}</h2>

@@ -13,9 +13,9 @@ const Five = () => {
 
             <div className="five-center">
             {gallery.map((data)=>{
-                       const {icon} = data
+                       const {id, icon} = data
                         return(
-                            <div class="gallery-image">
+                            <div className="gallery-image" key={id}>
                                 {icon}
                             </div>
                         )

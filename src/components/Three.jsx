@@ -10,9 +10,9 @@ const Three = () => {
             <div className="three-cover">
                 <div className="table">
                     {table.map((data)=>{
-                        const {icon, title, text} = data
+                        const {id, icon, title, text} = data
                         return(
-                            <div className="table-one">
+                            <div className="table-one" key={id}>
                                 {icon}
                                 <div className="table-words">
                                     <h2>{title}</h2>

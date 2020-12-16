@@ -48,7 +48,7 @@ const Fourdata = () => {
           <div className="btn-container">
             {jobs.map((item, index)=>{
               return(
-                <button onClick={()=>setValue(index)} className={`job-btn ${index === value && 'active-btn'}`}>{item.company}</button>
+                <button onClick={()=>setValue(index)} className={`job-btn ${index === value && 'active-btn'}`} key={item.id}>{item.company}</button>
               )        
             })}
           </div>

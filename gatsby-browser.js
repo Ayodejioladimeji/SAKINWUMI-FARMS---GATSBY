@@ -1,5 +1,4 @@
 import "./src/css/main.css"
-// import "./src/css/responsive.css"
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./src/css/testimonial.css"
 import "./src/css/approach.css"
@@ -15,4 +14,3 @@ import "./src/css/two.css"
 import "./src/css/footer.css"
 import "./src/css/team.css"
 import "./src/css/history.css"
-// import "./src/css/gallery.css"
