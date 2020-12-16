@@ -54,7 +54,7 @@ const Fourdata = () => {
           </div>
   
           {/* THE SECTION OF THE JOB INFORMATION */}
-          <article className="job-info">  
+          <div className="job-info">  
             {duties.map((duty, index)=>{
               return(
                 <div key={index} className="job-desc">
@@ -65,7 +65,7 @@ const Fourdata = () => {
             <Link to="/">
               <button className="btn-info">See more</button>
             </Link>
-          </article>
+          </div>
         </div>
       </section>
     )

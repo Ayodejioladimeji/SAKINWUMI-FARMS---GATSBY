@@ -1,0 +1,146 @@
+
+/* 
+===================================
+    THE SECTION OF THE NAVIGATIONAL BAR
+===================================
+*/
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    display:flex;
+    align-items: center;
+    height:5rem;
+    background:#B66200;
+}
+
+.nav-header{
+  text-align:center;
+  font-family:cursive;
+  font-size:12px;
+  line-height: 20px;
+  color:#fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow:1px 1px green;
+}
+
+.nav-header img{
+width:45px;
+height:45px;
+}
+
+.navbar .nav-center{
+    width:90vw;
+    max-width:1450px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    height:5rem;
+}
+
+.nav-links{
+    display:none;
+}
+
+.active-Nav{
+  background:red;
+  padding:10px;
+  font-size:50px;
+}
+
+.toggle-btn{
+    font-size:1.6rem;
+    background:transparent;
+    border-color:transparent;
+    cursor:pointer;
+    transition:var(--transition);
+    outline:none!important;
+    color:#fff;
+    margin-top:10px;
+}
+
+.toggle-btn:focus{
+  outline:none;
+}
+
+.toggle-btn:hover{
+    color:violet;
+}
+
+
+/* THE SECTION OF THE MEDIA QUERY */
+@media screen and (min-width:768px){
+    .nav-links{
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    .nav-links li{
+        margin-right:2rem;
+    }
+
+    .nav-header{
+        text-align:center;
+        font-family:cursive;
+        font-size:12px;
+        line-height: 20px;
+        color:#fff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow:1px 1px green;
+    }
+
+    .nav-header img{
+      width:45px;
+      height:45px;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+
+    .nav-links a{
+        text-transform:capitalize;
+        color:var(--clr-primary);
+        font-weight:normal;
+        transition:var(--transition);
+        font-family:var(--ff-primary);
+        font-size:15px;
+    }
+
+
+    .activeNav{
+      background:orangered;
+      padding:10px 15px;
+      border-radius:5px;
+    }
+
+    .nav-center {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+    .toggle-btn {
+    font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:375px) and (min-width:321px){
+    .toggle-btn {
+    font-size: 1.3rem;
+    }
+
+}

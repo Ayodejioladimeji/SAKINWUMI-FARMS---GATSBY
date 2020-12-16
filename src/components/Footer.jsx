@@ -19,6 +19,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
+            Footer still under construction
             {/* <SocialLinks styleClass="footer-links"></SocialLinks> */}
             <h4>
                 copyright &copy;{new Date().getFullYear()}

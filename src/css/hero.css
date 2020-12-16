@@ -1,0 +1,343 @@
+
+  /* ===============================
+    THE SECTION OF THE HERO
+  ===================================
+  */
+  .hero{
+    height:45rem;
+    text-align:center;
+    background:#B66200;
+  }
+  
+  .hero-image{
+    height:36rem;
+  }
+
+  .hero-image img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    background-attachment: fixed;
+  }
+
+  .carousel-div{
+    z-index:999999;
+    position:absolute;
+    top:15%;
+    left:0;
+    right:0;
+    text-align:left;
+    padding:0 15px 20px 20px;
+    background:#b6610042;
+    border-radius:10px;
+    width:90%;
+    margin:0 auto;
+  }
+
+  .carousel-div h3{
+    font-size:20px;
+    color:red;
+    font-weight:bold;
+    font-family:monospace;
+    margin-top:20px;
+    text-shadow:1px 1px white;
+  }
+
+  .carousel-div h1{
+    font-size:40px;
+    color:white;
+    font-weight:bold;
+    font-family:arial;
+    margin-top:30px;
+    margin-bottom:20px;
+    text-shadow:2px 2px red;
+  }
+
+  .carousel-div p{
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Tahoma;
+    letter-spacing:2px;
+    width:50%;
+  }
+
+  .carousel-div .btn-explore{
+    padding:15px 25px;
+    background:red;
+    color:white;
+    border:none;
+    outline:none;
+    margin-top:30px;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    transition:var(--transition);
+    font-size:12px;
+  }
+
+  .btn-explore:hover{
+    background:rgb(207, 21, 21);
+  }
+
+
+  @media screen and (min-width:426px) and (max-width:768px){
+    
+    .carousel-div{
+      position:absolute;
+      top:20%;
+      left:0;
+      right:0;
+      text-align:left;
+      padding:0 15px 20px 20px;
+      width:90%;
+      margin:0 auto;
+    }
+
+    .carousel-div p{
+      color:white;
+      font-size:13px;
+      font-weight:bold;
+      font-family:Tahoma;
+      letter-spacing:2px;
+      width:90%;
+    }
+  }
+
+
+  @media screen and (min-width:1170px){
+  
+    .carousel-div h3{
+      font-size:25px;
+      color:red;
+      font-weight:bold;
+      font-family:monospace;
+      margin-top:20px;
+      text-shadow:1px 1px white;
+    }
+  
+    .carousel-div h1{
+      font-size:70px;
+      color:white;
+      font-weight:bold;
+      font-family:arial;
+      margin-top:30px;
+      margin-bottom:20px;
+      text-shadow:2px 2px red;
+    }
+  
+    .carousel-div p{
+      color:white;
+      font-size:18px;
+      font-weight:normal;
+      font-family:Tahoma;
+      letter-spacing:2px;
+      width:50%;
+    }
+  
+    .carousel-div .btn-explore{
+      padding:22px 35px;
+      background:orangered;
+      color:white;
+      border:none;
+      outline:none;
+      margin-top:30px;
+      font-weight:bold;
+      border-radius:5px;
+      cursor:pointer;
+      transition:var(--transition);
+      font-weight:bold;
+    }
+  }
+
+
+@media screen and (max-width:320px){
+
+  .hero{
+    height:31rem;
+    text-align:center;
+    background:#B66200;
+  }
+    
+  .hero-image{
+      height:24rem;
+  }
+
+
+  .carousel-div{
+      z-index:999999;
+      position:absolute;
+      top:15%;
+      left:0;
+      right:0;
+      margin:0 auto;
+      width:90%;
+      text-align:left;
+      padding:0 15px 20px 10px;
+    }
+
+  .carousel-div h3{
+      font-size:15px;
+      color:red;
+      font-weight:bold;
+      font-family:Tahoma;
+      margin-top:20px;
+      text-shadow:1px 1px white;
+  }
+
+  .carousel-div h1{
+      font-size:25px;
+      color:white;
+      font-weight:bold;
+      font-family:arial;
+      margin-top:20px;
+      margin-bottom:20px;
+      text-shadow:1px 1px red;
+  }
+
+  .carousel-div p{
+      color:white;
+      font-size:10px;
+      font-weight:bold;
+      font-family:monospace;
+      letter-spacing:2px;
+      width:90%;
+  }
+
+  .carousel-div .btn-explore{
+      padding:12px 18px;
+      background:orangered;
+      color:white;
+      border:none;
+      outline:none;
+      margin-top:15px;
+      font-weight:bold;
+      border-radius:5px;
+      cursor:pointer;
+      transition:var(--transition);
+      font-size:9px;
+  }
+}
+
+
+
+@media screen and (max-width:375px) and (min-width:321px){
+
+  .hero{
+    height:37rem;
+    text-align:center;
+    background:#B66200;
+}
+  
+.hero-image{
+    height:30rem;
+}
+
+.carousel-div{
+    z-index:999999;
+    position:absolute;
+    top:20%;
+    left:0;
+    right:0;
+    margin:0 auto;
+    width:90%;
+    text-align:left;
+    padding:0 15px 20px 10px;
+  }
+
+.carousel-div h3{
+    font-size:17px;
+    color:red;
+    font-weight:bold;
+    font-family:monospace;
+    margin-top:20px;
+    text-shadow: 1px 1px white;
+}
+
+.carousel-div h1{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    font-family:arial;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-shadow:1px 1px red;
+}
+
+.carousel-div p{
+    color:white;
+    font-size:11px;
+    font-weight:bold;
+    font-family:Tahoma;
+    letter-spacing:2px;
+    width:90%;
+}
+
+.carousel-div .btn-explore{
+    padding:12px 18px;
+    background:orangered;
+    color:white;
+    border:none;
+    outline:none;
+    margin-top:15px;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    transition:var(--transition);
+    font-size:10px;
+}
+
+}
+
+
+@media screen and (max-width:425px) and (min-width:376px){
+  .hero{
+    height:32rem;
+    text-align:center;
+    background:#B66200;
+}
+  
+.hero-image{
+    height:26rem;
+}
+
+.carousel-div h3{
+    font-size:17px;
+    font-weight:bold;
+    font-family:monospace;
+    margin-top:20px;
+}
+
+.carousel-div h1{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    font-family:arial;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.carousel-div p{
+    color:white;
+    font-size:11px;
+    font-weight:bold;
+    font-family:Tahoma;
+    letter-spacing:2px;
+    width:90%;
+}
+
+.carousel-div .btn-explore{
+    padding:12px 18px;
+    background:orangered;
+    color:white;
+    border:none;
+    outline:none;
+    margin-top:15px;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    transition:var(--transition);
+    font-size:10px;
+}
+
+}

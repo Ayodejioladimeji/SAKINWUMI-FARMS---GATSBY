@@ -14,7 +14,7 @@ const one = () => {
                 {services.map((service)=>{
                 const {id, icon, title, text} = service;
                 return(
-                    <article key={id} className="service">
+                    <div key={id} className="service">
                         {icon}
                         <h4>{title}</h4>
                         <div className="underline"></div>
@@ -26,7 +26,7 @@ const one = () => {
                             <div className="underline"></div>
                             <p>{text}</p>
                         </div>
-                    </article>
+                    </div>
                     
                 )
                 })}

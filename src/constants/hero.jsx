@@ -55,14 +55,14 @@ export default [
     id: 8,
     icon: <img alt="" src="https://images.unsplash.com/photo-1502900166467-e5fe8d43f857?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80" /> ,
     intro: "#1 POULTRY PROVIDER",
-    title: "PREMIUM GAME",
+    title: "PREMIUM QUALITY",
     text: `Our poultry farm provides the best fresh products for local residents, markets and stores in the state.`,
   },
   {
     id: 9,
     icon: <img alt="" src="https://www.woodburnlivestockexchange.com/wp-content/uploads/2016/10/poultry-turkey.jpg" /> ,
     intro: "#1 POULTRY PROVIDER",
-    title: "PREMIUM GAME",
+    title: "PREMIUM QUALITY",
     text: `Our poultry farm provides the best fresh products for local residents, markets and stores in the state.`,
   },
   {

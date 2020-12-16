@@ -1,0 +1,347 @@
+
+/*
+ ============================
+  THE SECTION OF THE TWO
+ ============================
+ */
+ .two{
+    height:80vh;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+ 
+  .two-cover{
+    background:rgba(255, 255, 255, 0.568);
+    height:80vh;
+    padding:150px 0 0 0;
+  }
+ 
+  .two-center{
+    background:#b66100c9;
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding:30px 50px;
+    border-radius:10px;
+  }
+ 
+  .two-center h1{
+    color:white;
+    font-size:40px;
+    font-family:arial;
+    font-weight:bolder;
+    text-shadow:2px 2px red;
+  }
+ 
+  .two-center h3{
+    color:white;
+    text-align:center;
+    font-size:18px;
+    font-family:arial;
+    font-weight:normal;
+  }
+ 
+  .two-button{
+    background:green;
+    padding:15px 20px;
+    color:white;
+    font-size:12px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    margin-top:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:var(--transition);
+  }
+ 
+  .two-button:hover{
+    background:#B66200;
+  }
+  
+ 
+  @media screen and (min-width:426px){
+ 
+   .two{
+     height:100vh;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed;
+   }
+  
+   .two-cover{
+     background:rgba(255, 255, 255, 0.568);
+     height:100vh;
+     padding:150px 0 0 0;
+   }
+ 
+   .two-center{
+     background:#b66100c9;
+     width:90%;
+     margin:auto;
+     text-align:center;
+     padding:30px 30px;
+     border-radius:10px;
+   }
+  }
+ 
+ 
+  @media screen and (min-width:768px){
+   .two-center{
+     background:#b66100c9;
+     width:90%;
+     margin:auto;
+     text-align:center;
+     padding:30px 30px;
+     border-radius:10px;
+     margin-top:30px;
+   }
+  }
+ 
+ 
+ 
+  @media screen and (min-width:1200px){
+   .two{
+     height:100vh;
+     background-position:center;
+     background-size:cover;
+     background-attachment: fixed;
+   }
+  
+   .two-cover{
+     background:rgba(255, 255, 255, 0.568);
+     height:100vh;
+     padding:150px 0 0 0;
+   }
+  
+   .two-center{
+     background:#b6610098;
+     width:80%;
+     margin:auto;
+     text-align:center;
+     padding:60px 200px;
+     border-radius:10px;
+   }
+  
+   .two-center h1{
+     color:white;
+     font-size:50px;
+     font-family:arial;
+     font-weight:bolder;
+     text-shadow:2px 2px red;
+   }
+  
+   .two-center h3{
+     color:white;
+     text-align:center;
+     font-size:22px;
+     font-family:Tahoma;
+     font-weight:normal;
+   }
+  
+   .two-button{
+     background:green;
+     padding:15px 25px;
+     color:white;
+     font-size:14px;
+     border:none;
+     border-radius:10px;
+     outline:none;
+     margin-top:15px;
+     font-weight:bold;
+     cursor:pointer;
+     transition:var(--transition);
+   }
+  
+   .two-button:hover{
+     background:red;
+  
+   }
+  
+  }
+ 
+
+  @media screen and (max-width:320px){
+    .two{
+      height:110vh;
+      background-position:center;
+      background-size:cover;
+      background-attachment: fixed;
+      }
+      
+      .two-cover{
+      background:rgba(255, 255, 255, 0.568);
+      height:110vh;
+      padding:120px 0 0 0;
+      }
+      
+      .two-center{
+      background:#b66100c9;
+      width:90%;
+      margin:auto;
+      text-align:center;
+      padding:80px 20px;
+      border-radius:10px;
+      }
+      
+      .two-center h1{
+      color:white;
+      font-size:20px;
+      font-family:arial;
+      font-weight:bolder;
+      text-shadow:2px 2px red;
+      margin-bottom:10px;
+      }
+      
+      .two-center h3{
+      color:white;
+      text-align:center;
+      font-size:14px;
+      font-family:arial;
+      font-weight:normal;
+      }
+      
+      .two-button{
+      background:green;
+      padding:13px 18px;
+      color:white;
+      font-size:10px;
+      border:none;
+      border-radius:10px;
+      outline:none;
+      margin-top:15px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:var(--transition);
+      }
+      
+      .two-button:hover{
+      background:#B66200;
+      
+      }
+
+  }
+
+  @media screen and (max-width:375px) and (min-width:321px){
+    .two{
+      height:110vh;
+      background-position:center;
+      background-size:cover;
+      background-attachment: fixed;
+      }
+      
+      .two-cover{
+      background:rgba(255, 255, 255, 0.568);
+      height:110vh;
+      padding:140px 0 0 0;
+      }
+      
+      .two-center{
+      background:#b66100c9;
+      width:90%;
+      margin:auto;
+      text-align:center;
+      padding:80px 20px;
+      border-radius:10px;
+      }
+      
+      .two-center h1{
+      color:white;
+      font-size:25px;
+      font-family:arial;
+      font-weight:bolder;
+      text-shadow:2px 2px red;
+      margin-bottom:10px;
+      }
+      
+      .two-center h3{
+      color:white;
+      text-align:center;
+      font-size:15px;
+      font-family:arial;
+      font-weight:normal;
+      }
+      
+      .two-button{
+      background:green;
+      padding:13px 18px;
+      color:white;
+      font-size:10px;
+      border:none;
+      border-radius:10px;
+      outline:none;
+      margin-top:15px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:var(--transition);
+      }
+      
+      .two-button:hover{
+      background:#B66200;
+      
+      }
+  }
+
+
+  @media screen and (max-width:425px) and (min-width:376px){
+    .two{
+      height:100vh;
+      background-position:center;
+      background-size:cover;
+      background-attachment: fixed;
+      }
+      
+      .two-cover{
+      background:rgba(255, 255, 255, 0.568);
+      height:100vh;
+      padding:100px 0 0 0;
+      }
+      
+      .two-center{
+      background:#b66100c9;
+      width:90%;
+      margin:auto;
+      text-align:center;
+      padding:80px 20px;
+      border-radius:10px;
+      }
+      
+      .two-center h1{
+      color:white;
+      font-size:25px;
+      font-family:arial;
+      font-weight:bolder;
+      text-shadow:2px 2px red;
+      margin-bottom:10px;
+      }
+      
+      .two-center h3{
+      color:white;
+      text-align:center;
+      font-size:15px;
+      font-family:arial;
+      font-weight:normal;
+      }
+      
+      .two-button{
+      background:green;
+      padding:13px 18px;
+      color:white;
+      font-size:10px;
+      border:none;
+      border-radius:10px;
+      outline:none;
+      margin-top:15px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:var(--transition);
+      }
+      
+      .two-button:hover{
+      background:red;
+      
+      }
+  
+  
+  }

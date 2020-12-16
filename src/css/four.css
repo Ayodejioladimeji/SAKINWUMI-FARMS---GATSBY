@@ -1,0 +1,489 @@
+
+/* 
+=====================================
+  THE SECTION OF THE FOUR
+=====================================
+*/
+.four{
+    background:#fff;
+  }
+  
+  .four-center {
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 2000px;
+    margin-top:50px;
+  }
+  
+  
+  .image-container{
+    background:#B66200;
+    height:100%;
+    width:50%;
+    padding:30px;
+  }
+  
+  .image-container img{
+    width:220%;
+    height:100%;
+    object-fit:cover;
+    border:1px solid #B66200;
+  }
+  
+  .loading{
+    text-align:center;
+    padding:100px;
+  }
+  
+  .loading h1{
+    color:green;
+    font-family:cursive;
+    font-size:35px;
+  
+  }
+  
+  .loading h3{
+    color:red;
+    font-family:arial;
+  }
+  
+  .loading p{
+    color:#999;
+    font-family:arial;
+  }
+  
+  
+  @media screen and (min-width:992px){
+    .four-center{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .jobs-center {
+      width: 40vw;
+      background:#B66200;
+      margin-top:30px;
+      transition:var(--transition);
+    }
+  
+  }
+  
+  @media screen and (min-width:426px) and (max-width:991px){
+  
+    .four-center {
+      display: grid;
+      grid-template-columns: 1fr;
+      -webkit-column-gap: 2rem;
+      -moz-column-gap: 2rem;
+      column-gap: 2rem;
+    }
+  
+    .jobs{
+      position:relative;
+      padding-bottom:50px;
+      padding:20px 0;
+    }
+  
+    .jobs h3{
+      font-family:monospace;
+      font-size:20px;
+      margin-top:30px;
+    }
+  
+    .jobs h2{
+      font-family:monospace;
+      font-size:30px;
+      font-weight:normal;
+    }
+  
+    .jobs h1{
+      font-family:arial;
+      font-size:45px;
+      color:red;
+    }
+  
+    .jobs-center {
+      width: 60vw;
+      background:#B66200;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width:600px){
+    .jobs-center{
+      width:70vw;
+    }
+  
+  }
+  
+  
+  
+  
+  /* 
+  ==================================
+    THE SECTION OF THE FOUR DATA
+  ==================================
+  */
+  
+  .jobs{
+    position:relative;
+    padding-bottom:50px;
+    padding:20px;
+    height:75vh;
+  }
+  
+  .jobs h3{
+    font-family:monospace;
+    font-size:25px;
+    margin-top:30px;
+  }
+  
+  .jobs h2{
+    font-family:monospace;
+    font-size:40px;
+    font-weight:normal;
+  }
+  
+  .jobs h1{
+    font-family:arial;
+    font-size:60px;
+    color:red;
+  }
+  
+  
+  
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    height:50px;
+    transition: var(--transition);
+    background:#492803;
+    padding:10px;
+  }
+  
+  .job-btn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    letter-spacing: var(--spacing);
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+    padding: 0.25rem 0;
+    line-height: 1;
+    outline:none;
+    color:#fff;
+    border:none;
+  }
+  
+  .job-btn:hover {
+    color: red;
+    box-shadow: 0 2px var(--clr-primary-5);
+  }
+  
+  .active-btn {
+    color:#00ff00;
+    box-shadow: 0 2px var(--clr-primary-5);
+    border-bottom:3px solid #00ff00;
+  }
+  
+  
+  
+  
+  .job-info {
+    transition: var(--transition);
+    padding:10px 15px 20px 30px;
+    margin-top:-50px;
+  }
+  
+  .job-desc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    color:white;
+    transition: var(--transition);
+  }
+  .job-desc p {
+    margin-bottom: 0;
+    color:#fff;
+    font-family:monospace;
+    font-family:Tahoma;
+    font-size:14px;
+  }
+  
+  
+  .btn-info{
+    background:red;
+    color:#fff;
+    padding:10px 19px ;
+    border:none;
+    outline:none;
+    font-size:13px;
+    font-family:cursive;
+    cursor:pointer;
+    transition: var(--transition);
+  }
+  
+  .btn-info:hover{
+    background:orangered;
+  }
+  
+
+
+  @media screen and (max-width:320px){
+    .image-container{
+      background:#B66200;
+      height:30rem;
+      width:60%;
+      padding:30px;
+      }
+      
+      .image-container img{
+      width:220%;
+      height:100%;
+      object-fit:cover;
+      border:1px solid #B66200;
+      }
+  
+      .jobs{
+      position:relative;
+      padding-bottom:50px;
+      padding:20px 0;
+      }
+  
+      .jobs h3{
+      font-family:monospace;
+      font-size:18px;
+      margin-top:30px;
+      text-align:center;
+      color:red;
+      }
+  
+      .jobs h2{
+      font-family:monospace;
+      font-size:28px;
+      font-weight:normal;
+      text-align:center;
+      }
+  
+      .jobs h1{
+      font-family:arial;
+      font-size:35px;
+      color:green;
+      text-align:center;
+      }
+  
+      .jobs-center {
+      width: 90vw;
+      background:#B66200;
+      margin:0 auto;
+      }
+      
+    
+      .job-btn {
+          font-size: 0.6rem;
+        }
+      
+        
+      .job-info {
+      padding:0 10px 20px 10px;
+      }
+
+      .job-desc p{
+          font-size:13px;
+      }
+
+      .loading{
+          text-align:center;
+          padding:100px 50px;
+      }
+      
+      .loading h1{
+          color:green;
+          font-family:cursive;
+          font-size:25px;
+      }
+
+      .loading h3{
+        font-family:Tahoma;
+        text-transform: lowercase;
+      }
+      
+      .loading p{
+          font-size:15px;
+      }
+
+  }
+
+
+  @media screen and (max-width:375px) and (min-width:321px){
+    
+    .image-container{
+      background:#B66200;
+      height:30rem;
+      width:60%;
+      padding:30px;
+      }
+      
+      .image-container img{
+      width:210%;
+      height:100%;
+      object-fit:cover;
+      border:1px solid #B66200;
+      }
+  
+      .jobs{
+      position:relative;
+      padding-bottom:50px;
+      padding:20px 0;
+      }
+  
+      .jobs h3{
+      font-family:monospace;
+      font-size:18px;
+      margin-top:30px;
+      text-align:center;
+      color:red;
+      }
+  
+      .jobs h2{
+      font-family:monospace;
+      font-size:28px;
+      font-weight:normal;
+      text-align:center;
+      }
+  
+      .jobs h1{
+      font-family:arial;
+      font-size:35px;
+      color:green;
+      text-align:center;
+      }
+  
+      .jobs-center {
+      width: 90vw;
+      background:#B66200;
+      margin:0 auto;
+      }
+      
+    
+    .job-btn {
+      font-size: 0.6rem;
+    }
+  
+    
+    .job-info {
+      padding:0 10px 20px 10px;
+    }
+
+    .btn-info{
+        font-size:14px;
+    }
+
+    .job-desc p{
+      font-size:13px;
+  }
+
+  .loading{
+      text-align:center;
+      padding:100px 50px;
+  }
+  
+  .loading h1{
+      color:green;
+      font-family:cursive;
+      font-size:25px;
+  }
+  
+  .loading p{
+      font-size:15px;
+  }
+
+  }
+
+
+  @media screen and (max-width:425px) and (min-width:376px){
+    .image-container{
+      background:#B66200;
+      height:30rem;
+      width:60%;
+      padding:30px;
+      }
+      
+      .image-container img{
+      width:200%;
+      height:100%;
+      object-fit:cover;
+      border:1px solid #B66200;
+      }
+  
+      .jobs{
+      position:relative;
+      padding-bottom:50px;
+      padding:20px 0;
+      }
+  
+      .jobs h3{
+      font-family:monospace;
+      font-size:18px;
+      margin-top:30px;
+      text-align:center;
+      }
+  
+      .jobs h2{
+      font-family:monospace;
+      font-size:28px;
+      font-weight:normal;
+      text-align:center;
+      }
+  
+      .jobs h1{
+      font-family:arial;
+      font-size:35px;
+      color:red;
+      text-align:center;
+      }
+  
+      .jobs-center {
+      width: 90vw;
+      background:#B66200;
+      margin:0 auto;
+      padding-bottom:20px;
+      }
+      
+    
+    .job-btn {
+      font-size: 0.6rem;
+    }
+  
+    
+    .job-info {
+      padding:0 10px 20px 10px;
+    }
+
+    .job-desc p{
+        font-size:13px;
+    }
+
+    
+  .loading{
+      text-align:center;
+      padding:100px 50px;
+  }
+  
+  .loading h1{
+      color:green;
+      font-family:cursive;
+      font-size:25px;
+  }
+  
+  .loading p{
+      font-size:15px;
+  }
+  }

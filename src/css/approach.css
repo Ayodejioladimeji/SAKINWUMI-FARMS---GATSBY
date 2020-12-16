@@ -1,0 +1,186 @@
+
+  /* 
+  ==============================
+    THE SECTION OF THE APPROACH
+  ==============================
+  */
+  .approach{
+    height:80vh;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:150px 0;
+  }
+  
+  .approach-center h1{
+    font-family:monospace;
+    font-size:45px;
+    color:white;
+    font-weight:bold;
+    letter-spacing:var(--spacing);
+    text-shadow:1px 1px green;
+  }
+  
+  .approach-center p{
+    color:white;
+    font-size:17px;
+    font-family:Tahoma;
+    margin-top:10px;
+  }
+  
+  .approach-center button{
+    padding:15px 25px;
+    margin-top:20px;
+    background:red;
+    border:none;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+    transition:var(--transition)
+  }
+  
+  .approach-center button:hover{
+    background:green;
+    margin-left:10px;
+  }
+
+
+  @media screen and (min-width:1440px){
+    .approach-center{
+      width:45%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:40px 0;
+    }
+  }
+
+
+  @media screen and (min-width:1024px) and (max-width:1439px){
+    .approach-center{
+      width:50%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:40px 0;
+    }
+  }
+
+
+  @media screen and (min-width:769px) and (max-width:1023px){
+    .approach-center{
+      width:60%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:40px 0;
+    }
+
+    .approach-center h1{
+      font-size:35px
+    }
+  }
+
+
+  @media screen and (min-width:426px) and (max-width:768px){
+    .approach-center{
+      width:80%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:40px 0;
+    }
+    .approach-center h1{
+      font-size:30px
+    }
+  }
+
+
+
+  @media screen and (max-width:320px){
+
+    .approach{
+      height:100vh;
+    }
+
+    .approach-center{
+      width:90%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:20px 0;
+    }
+    .approach-center h1{
+      font-size:25px
+    }
+    .approach-center p{
+      font-size:14px;
+    }
+
+    .approach-center button{
+      font-size:11px;
+    }
+  }
+
+
+  
+  @media screen and (max-width:375px) and (min-width:321px){
+
+    .approach{
+      height:80vh;
+    }
+
+    .approach-center{
+      width:90%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:20px 0;
+    }
+    .approach-center h1{
+      font-size:25px
+    }
+    .approach-center p{
+      font-size:14px;
+    }
+
+    .approach-center button{
+      font-size:11px;
+    }
+  }
+
+
+  
+  @media screen and (max-width:425px) and (min-width:376px){
+
+    .approach{
+      height:70vh;
+    }
+
+    .approach-center{
+      width:90%;
+      margin:0 auto;
+      border-radius:10px;
+      background:rgba(0, 0, 0, 0.479);
+      text-align:center;
+      padding:20px 0;
+    }
+    .approach-center h1{
+      font-size:25px
+    }
+    .approach-center p{
+      font-size:14px;
+    }
+
+    .approach-center button{
+      font-size:11px;
+    }
+  }
+  
