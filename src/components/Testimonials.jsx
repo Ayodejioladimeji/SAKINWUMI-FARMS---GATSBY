@@ -4,7 +4,7 @@ import testimonials from '../constants/testimonials'
 
 import '../css/testimonial.css'
 
-// const harvest = "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8ZmFybXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
+const harvest = "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8ZmFybXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
 
 const Testimonials = () => {
     const [people, setPeople] = useState(testimonials);
@@ -30,7 +30,7 @@ const Testimonials = () => {
     },[index])
 
     return (
-        <div className="testimonials">
+        <div className="testimonials" style={{ backgroundImage:`url(${harvest})` }}>
             <section className="testimonial-section">
                 <div className="title">
                     <h3>WHAT PEOPLE SAY</h3>
