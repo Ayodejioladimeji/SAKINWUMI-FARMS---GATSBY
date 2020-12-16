@@ -6,7 +6,7 @@ THE SECTION OF THE FOOTER
 .footer {
     display: grid;
     place-items: center;
-    background:#B66200;
+    background:#000;
     padding: 5rem 0 1rem 0;
   }
   

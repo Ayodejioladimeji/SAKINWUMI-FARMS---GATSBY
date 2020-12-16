@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import services from "../constants/one"
-// import hen from '../assets/sheep.jpg'
 
-const one = () => {
+import Aos from "aos"
+import "aos/dist/aos.css"
+
+const One = () => {
+
+    useEffect(()=>{
+        Aos.init({duration:2000});
+      }, []);
+    
     return (
        <div className="one">
-            <div className="heading">
+            <div className="heading" data-aos="fade-up">
                 <h3>WORKING WITH EXCELLENT</h3>
                 <h1>Our Special Services</h1>
             </div>
 
-            <div className="section-center services-center">
+            <div className="center services-center">
                 {services.map((service)=>{
                 const {id, icon, title, text} = service;
                 return(
@@ -35,4 +42,4 @@ const one = () => {
     )
 }
 
-export default one
+export default One

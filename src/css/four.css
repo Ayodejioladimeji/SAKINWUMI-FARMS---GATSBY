@@ -65,10 +65,73 @@
       margin-top:30px;
       transition:var(--transition);
     }
+
+    .jobs h3{
+      font-family:monospace;
+      font-size:25px;
+      margin-top:30px;
+    }
+    
+    .jobs h2{
+      font-family:monospace;
+      font-size:40px;
+      font-weight:normal;
+    }
+    
+    .jobs h1{
+      font-family:arial;
+      font-size:60px;
+      color:red;
+    }
   
   }
+
+
   
-  @media screen and (min-width:426px) and (max-width:991px){
+  @media screen and (min-width:601px) and (max-width:991px){
+  
+    .four-center {
+      display: grid;
+      grid-template-columns: 1fr;
+      -webkit-column-gap: 2rem;
+      -moz-column-gap: 2rem;
+      column-gap: 2rem;
+    }
+  
+    .jobs{
+      position:relative;
+      padding-bottom:50px;
+      padding:20px;
+    }
+  
+    .jobs h3{
+      font-family:monospace;
+      font-size:30px;
+      margin-top:30px;
+    }
+  
+    .jobs h2{
+      font-family:monospace;
+      font-size:35px;
+      font-weight:normal;
+    }
+  
+    .jobs h1{
+      font-family:arial;
+      font-size:55px;
+      color:red;
+    }
+  
+    .jobs-center {
+      width: 85vw;
+      background:#B66200;
+    }
+      
+  
+  }
+
+
+  @media screen and (min-width:426px) and (max-width:600px){
   
     .four-center {
       display: grid;
@@ -98,24 +161,18 @@
   
     .jobs h1{
       font-family:arial;
-      font-size:45px;
+      font-size:40px;
       color:red;
     }
   
     .jobs-center {
-      width: 60vw;
+      width: 90vw;
       background:#B66200;
     }
       
   
   }
   
-  @media screen and (max-width:600px){
-    .jobs-center{
-      width:70vw;
-    }
-  
-  }
   
   
   
@@ -129,26 +186,7 @@
   .jobs{
     position:relative;
     padding-bottom:50px;
-    padding:20px;
     height:75vh;
-  }
-  
-  .jobs h3{
-    font-family:monospace;
-    font-size:25px;
-    margin-top:30px;
-  }
-  
-  .jobs h2{
-    font-family:monospace;
-    font-size:40px;
-    font-weight:normal;
-  }
-  
-  .jobs h1{
-    font-family:arial;
-    font-size:60px;
-    color:red;
   }
   
   
@@ -190,9 +228,6 @@
     box-shadow: 0 2px var(--clr-primary-5);
     border-bottom:3px solid #00ff00;
   }
-  
-  
-  
   
   .job-info {
     transition: var(--transition);
@@ -282,7 +317,7 @@
       .jobs-center {
       width: 90vw;
       background:#B66200;
-      margin:0 auto;
+      margin:20px auto;
       }
       
     
@@ -369,7 +404,7 @@
       .jobs-center {
       width: 90vw;
       background:#B66200;
-      margin:0 auto;
+      margin:20px auto;
       }
       
     

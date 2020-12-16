@@ -76,7 +76,7 @@
 
 .hover-contain{
     background:#B66200;
-    width:50%;
+    width:70%;
     margin:0 auto;
     padding:10px 0;
     border-bottom:5px solid red;
@@ -90,8 +90,8 @@
         width:90vw;
         margin:0 auto;
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap:6rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap:3rem;
         max-width:1570px;
         padding:0 50px;
     }
@@ -225,7 +225,7 @@
     .top-right{
         width:100%;
         font-size:16px;
-        font-size:14px;
+        font-size:13px;
     }
 
     .team-center{
@@ -240,6 +240,10 @@
 
     .div-team{
         height:450px!important;
+    }
+
+    .div-team h2{
+        font-size:20px;
     }
 
     
@@ -268,7 +272,7 @@
 
     .top-right{
         width:100%;
-        font-size:14px;
+        font-size:13px;
     }
 
     .team-center{
@@ -283,6 +287,10 @@
 
     .div-team{
         height:450px!important;
+    }
+
+    .div-team h2{
+        font-size:20px;
     }
 
     
@@ -312,7 +320,7 @@
 
     .top-right{
         width:100%;
-        font-size:15px;
+        font-size:14px;
     }
 
     .team-center{
@@ -327,6 +335,10 @@
 
     .div-team{
         height:450px!important;
+    }
+
+    .div-team h2{
+        font-size:20px;
     }
 
     

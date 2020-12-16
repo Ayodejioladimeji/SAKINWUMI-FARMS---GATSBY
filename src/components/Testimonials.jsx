@@ -4,7 +4,6 @@ import testimonials from '../constants/testimonials'
 
 import '../css/testimonial.css'
 
-const harvest = "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8ZmFybXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
 
 const Testimonials = () => {
     const [people, setPeople] = useState(testimonials);
@@ -30,9 +29,9 @@ const Testimonials = () => {
     },[index])
 
     return (
-        <div className="testimonials" style={{ backgroundImage:`url(${harvest})` }}>
+        <div className="testimonials">
             <section className="testimonial-section">
-                <div className="title">
+                <div className="title-top">
                     <h3>WHAT PEOPLE SAY</h3>
                     <h2>TESTIMONIALS</h2>
                 </div>
@@ -46,11 +45,6 @@ const Testimonials = () => {
                         if(personIndex === index){
                             position = 'activeSlide';
                         }
-
-                        {/* if(personIndex ===index -1 ||
-                        (index === 0 && personIndex === people.length - 1)){
-                            position = 'lastSlide';
-                        } */}
 
                         return(
                             <article className={position} key={id}>

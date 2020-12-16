@@ -79,15 +79,13 @@ THE SECTION OF THE ONE
     color: var(--clr-primary-10);
   }
   
-  .section-center {
+  .center {
     width: 90vw;
     margin: 0 auto;
     max-width: 1570px;
+    background:#B66200!important;
   }
 
-  .services-center{
-    background:#e98007;
-  }
   
   .mouse-over {
     position: absolute;
@@ -113,11 +111,10 @@ THE SECTION OF THE ONE
   }
   
   
-  @media screen and (min-width: 585px) {
+  @media screen and (min-width: 585px){
     .services-center {
       display: grid;
       grid-template-columns: 1fr 1fr ;
-      background:#B66200;
       -webkit-column-gap: 2rem;
       -moz-column-gap: 2rem;
       column-gap: 2rem;
@@ -128,7 +125,6 @@ THE SECTION OF THE ONE
   @media screen and (min-width: 900px) {
     .services-center {
       grid-template-columns: 1fr 1fr 1fr;
-      background:#B66200;
       align-items:center;
       padding:30px;
       column-gap: 2rem;  
@@ -141,7 +137,6 @@ THE SECTION OF THE ONE
   @media screen and (min-width: 1195px) {
     .services-center {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      background:#B66200;
       align-items:center;
       padding:30px;
       column-gap: 2rem;  
@@ -155,7 +150,6 @@ THE SECTION OF THE ONE
 
   @media screen and (max-width:320px){
     .services-center{
-      background:#b661009f;
       padding:10px;
     }
 
@@ -196,7 +190,6 @@ THE SECTION OF THE ONE
     ==============================
     */
     .services-center{
-      background:#b661009f;
       padding:10px;
   }
 
@@ -208,30 +201,29 @@ THE SECTION OF THE ONE
       border-radius:10px;
   }
 
-  .heading h3{
-  font-family:monospace;
-  font-size:16px;
-  padding:20px 0 0 0;
-  color:red;
-  font-weight:bold;
-  text-shadow:none;
-  }
-  
-  .heading h1{
-  font-family:arial;
-  padding:10px 0;
-  color:white;
-  font-weight:bold;
-  text-shadow:1px 1px red;
-  font-size:25px;
-  }
+    .heading h3{
+    font-family:monospace;
+    font-size:16px;
+    padding:20px 0 0 0;
+    color:red;
+    font-weight:bold;
+    text-shadow:none;
+    }
+    
+    .heading h1{
+    font-family:arial;
+    padding:10px 0;
+    color:white;
+    font-weight:bold;
+    text-shadow:1px 1px red;
+    font-size:25px;
+    }
 
   }
 
 
   @media screen and (max-width:425px) and (min-width:376px){
     .services-center{
-      background:#b661009f;
       padding:10px;
   }
 

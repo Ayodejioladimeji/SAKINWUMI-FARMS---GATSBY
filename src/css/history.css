@@ -5,10 +5,8 @@
 */
 .div-history{
     text-align:center;
-    padding:50px 0 150px 0;
-    background-position:center;
-    background-size:cover;
-    /* background-attachment: fixed; */
+    padding:50px 0 100px 0;
+    background:#B66200;
 }
   
   .history-heading h3{
@@ -22,10 +20,10 @@
   .history-heading h1{
     font-family:arial;
     padding:10px 0;
-    color:#fff;
+    color:red;
     font-weight:bold;
-    text-shadow:1px 1px red;
-    font-size:50px;
+    font-size:45px;
+    text-shadow:1px 1px white;
   }
   
   .histories {
@@ -42,6 +40,8 @@
     height:300px!important;
     padding:50px 1.5rem;
     border-radius:150px;
+    outline:none!important;
+    /* display:none; */
   }
 
   .history-icon{
@@ -61,7 +61,7 @@
     height: 0.12rem;
     -webkit-transition: var(--transition);
     transition: var(--transition);
-    background:#B66200;
+    background:red;
   }
   
   .histories p {
@@ -72,10 +72,6 @@
     font-size:14px;
   }
   
-  
-  .histories:hover p {
-    color: var(--clr-primary-10);
-  }
   
   .history-center {
     width: 90vw;
@@ -95,10 +91,16 @@
     height: 100%;
     font-family: monospace;
     padding: 3rem 1.5rem;
+    outline:none;
   }
   
   .history-over h2{
     color:#b66100c9;
+  }
+
+
+  .history-over p{
+    color:green;
   }
 
   .history-over .history-icon{
@@ -157,6 +159,8 @@
   
   
   }
+
+
   @media screen and (min-width: 1195px) {
     .history-center {
       display: grid;

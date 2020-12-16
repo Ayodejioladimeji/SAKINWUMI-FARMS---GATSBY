@@ -5,10 +5,7 @@
 =================================
 */
 .testimonials{
-    background-position:center;
-    background-size:cover;
-    /* background-attachment: fixed; */
-    object-fit:cover;
+    background:#B66200;
     padding:70px 0;
   }
   
@@ -17,20 +14,22 @@
     margin:0 auto;
   }
   
-  .title{
+  .title-top{
     text-align:center;
     margin-bottom:1rem;
   }
   
-  .title h3{
+  .title-top{
     font-family:monospace;
-    color:black;
+    color:#fff;
     font-size:25px;
   }
   
-  .title h2{
+  .title-top h2{
     font-family:arial;
     font-size:35px;
+    color:red;
+    text-shadow:1px 1px white;
   }
   
   .testimonial-center{
@@ -58,16 +57,15 @@
     transition: 0.8s ease-in-out;
     padding:20px 130px;
     display:flex;
-    
   }
   
   .person-img{
-    margin-bottom:1rem;
     width:50%;
     height:400px;
     box-shadow:var(--dark-shadow);
     border-radius:10px;
     object-fit:cover;
+    margin-top:30px;
   }
 
   .article-text{
@@ -271,11 +269,11 @@
 
   @media screen and (max-width:320px){
 
-    .title h2{
+    .title-top h2{
       font-size:30px;
     }
 
-    .title h3{
+    .title-top h3{
       font-size:20px;
     }
 
@@ -298,7 +296,7 @@
       height:100%;
       opacity:0;
       transition: 0.8s ease-in-out;
-      padding:20px;
+      padding:0 20px;
       display:block;
     }
 
@@ -328,11 +326,11 @@
 
   @media screen and (max-width:375px) and (min-width:321px){
 
-    .title h2{
+    .title-top h2{
       font-size:30px;
     }
 
-    .title h3{
+    .title-top h3{
       font-size:20px;
     }
 
@@ -354,7 +352,7 @@
       height:100%;
       opacity:0;
       transition: 0.8s ease-in-out;
-      padding:20px;
+      padding:0 20px;
       display:block;
     }
 
@@ -383,11 +381,11 @@
   
   @media screen and (max-width:425px) and (min-width:376px){
 
-    .title h2{
+    .title-top h2{
       font-size:30px;
     }
 
-    .title h3{
+    .title-top h3{
       font-size:20px;
     }
 

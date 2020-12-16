@@ -5,16 +5,13 @@
 ===============================
 */
 .three{
-    height:130vh;
+    height:110vh;
     position: relative;
-    background-position:center;
-    background-size:cover;
-    /* background-attachment: fixed; */
   }
   
   .three-cover{
-    /* background:#b661008f; */
-    height:130vh;
+    background:#B66200;
+    height:110vh;
   }
   
   .table{
@@ -65,7 +62,7 @@
     margin: 0 auto;
     max-width: 1200px;
     position:absolute;
-    top:50%;
+    top:40%;
     right:0;
     left:0;
     text-align:center;
@@ -134,7 +131,7 @@
   
   
   
-  @media screen and (min-width:768px){
+  @media screen and (min-width:768px) and (max-width:1023px){
     .table{
       width: 90vw;
       margin: 0 auto;
@@ -158,18 +155,14 @@
   }
   
   
-  @media screen and (min-width:1024px){
+  @media screen and (min-width:1024px) and (max-width:1199px){
   
     .three{
       height:100vh;
-      position: relative;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
     }
     
     .three-cover{
-      /* background:#b661008f; */
+      background:#B66200;
       height:100vh;
     }
   
@@ -249,7 +242,7 @@
     }
     
     .three-cover{
-      background:#b6610069;
+      background:#B66200;
       height:90vh;
     }
     
@@ -359,14 +352,10 @@
   @media screen and (max-width:320px){
     .three{
       height:130vh;
-      position: relative;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
       }
   
       .three-cover{
-      background:#b661008f;
+      background:#B66200;
       height:130vh;
       }
   
@@ -466,16 +455,12 @@
 
   @media screen and (max-width:375px) and (min-width:321px){
     .three{
-      height:130vh;
-      position: relative;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
+      height:120vh;
       }
   
       .three-cover{
-      background:#b661008f;
-      height:130vh;
+      background:#B66200;
+      height:120vh;
       }
   
       .table{
@@ -584,7 +569,7 @@
       }
   
       .three-cover{
-      background:#b661008f;
+      background:#B66200;
       height:130vh;
       }
   

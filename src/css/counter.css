@@ -32,6 +32,7 @@
     font-size:15px;
     text-align:center;
     font-weight: bold;
+    color:gold;
   }
   
 
@@ -39,7 +40,7 @@
     .count{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      background:#c26801;
+      background:transparent;
       -webkit-column-gap: 2rem;
       -moz-column-gap: 2rem;
       column-gap: 2rem;
@@ -50,8 +51,7 @@
   @media screen and (min-width:1024px) and (max-width:1341px){
     .count{
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      background:#c26801;
+      grid-template-columns: 1fr 1fr 1fr;
       -webkit-column-gap: 2rem;
       -moz-column-gap: 2rem;
       column-gap: 2rem;
@@ -63,7 +63,7 @@
     .count{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      background:#c26801;
+      background:transparent;
       -webkit-column-gap: 2rem;
       -moz-column-gap: 2rem;
       column-gap: 2rem;
@@ -76,7 +76,6 @@
     .count{
       display: grid;
       grid-template-columns: 1fr;
-      background:#c26801;
       -webkit-column-gap: 2rem;
       -moz-column-gap: 2rem;
       column-gap: 2rem;
@@ -85,7 +84,7 @@
 
     .count-one{
       background:white;
-      padding:10px 20px;
+      padding:10px 0px;
       display:flex;
       align-items:center;
       margin-top:10px;

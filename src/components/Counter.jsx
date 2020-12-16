@@ -9,7 +9,7 @@ const Counter = () => {
                     const {icon, title, text} = data
                     return(
                         <div className="count-one">
-                            {icon}
+                            <div className="div-icon">{icon}</div>
                             <div className="count-words">
                                 <h2>{title}</h2>
                                 <p>{text}</p>

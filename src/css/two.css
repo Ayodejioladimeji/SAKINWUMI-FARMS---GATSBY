@@ -8,7 +8,7 @@
     height:80vh;
     background-position:center;
     background-size:cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
  
   .two-cover{
@@ -61,17 +61,13 @@
   }
   
  
-  @media screen and (min-width:426px){
+  @media screen and (min-width:426px) and (max-width:769px){
  
    .two{
      height:100vh;
-     background-position:center;
-     background-size:cover;
-     background-attachment: fixed;
    }
   
    .two-cover{
-     background:rgba(255, 255, 255, 0.568);
      height:100vh;
      padding:150px 0 0 0;
    }
@@ -87,7 +83,7 @@
   }
  
  
-  @media screen and (min-width:768px){
+  @media screen and (min-width:768px) and (max-width:1199){
    .two-center{
      background:#b66100c9;
      width:90%;
@@ -104,9 +100,6 @@
   @media screen and (min-width:1200px){
    .two{
      height:100vh;
-     background-position:center;
-     background-size:cover;
-     background-attachment: fixed;
    }
   
    .two-cover{
@@ -165,9 +158,6 @@
   @media screen and (max-width:320px){
     .two{
       height:110vh;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
       }
       
       .two-cover{
@@ -226,9 +216,6 @@
   @media screen and (max-width:375px) and (min-width:321px){
     .two{
       height:110vh;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
       }
       
       .two-cover{

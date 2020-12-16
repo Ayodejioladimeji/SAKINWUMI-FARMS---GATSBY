@@ -1,14 +1,14 @@
 import React from 'react'
 import history from '../constants/history'
 
-const hist = "https://images.unsplash.com/photo-1520794673827-ab71def2c94d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
 
 const History = () => {
     return (
-        <div className="div-history" style={{backgroundImage:`url(${hist})`}}>
+        <div className="div-history">
             <div className="history-heading">
                 <h3>HOW WE ACHIEVED SUCCESS</h3>
                 <h1>OUR HISTORY</h1>
+                <div className="underline"></div>
             </div>
 
             <div className="history-center">

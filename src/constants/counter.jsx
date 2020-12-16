@@ -21,8 +21,8 @@ export default [
   {
     id: 3,
     icon: <img src={shipping} alt="shipping"/>,
-    title: '200K',
-    text: `PRODUCTS SOLD`,
+    title: '200',
+    text: `PRODUCT DELIVERED`,
   },
   {
     id: 4,
