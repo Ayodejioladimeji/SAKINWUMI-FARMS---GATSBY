@@ -5,9 +5,9 @@ const Approach = () => {
     return (
         <div className="approach" style={{ backgroundImage:`url(${harvest})` }}>
             <div className="approach-center">
-               <h1>OUR APPROACH</h1>
-               <p>Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for our clients.</p>
-               <button>PRESENTATION</button>
+               <h1 data-aos="flip-up">OUR APPROACH</h1>
+               <p data-aos="fade-down">Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for our clients.</p>
+               <button data-aos="flip-down">PRESENTATION</button>
                
             </div>
         </div>

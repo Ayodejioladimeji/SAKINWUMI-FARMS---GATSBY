@@ -97,25 +97,9 @@
     margin-top:15px;
   }
   
-  .btn-one{
-    background:red;
-    color:white;
-    padding:13px 20px;
-    border:none;
-    outline:none;
-    font-weight:bold;
-    margin-right:20px;
-    cursor:pointer;
-    font-size:13px;
-  }
-  
-  .btn-one:hover{
-    background:#492803;
-  }
-  
   .btn-two{
-    background:#492803;
-    color:white;
+    background:white;
+    color:red;
     padding:13px 20px;
     border:none;
     outline:none;
@@ -126,6 +110,7 @@
   
   .btn-two:hover{
     background:red;
+    color:white
   }
   
   
@@ -336,8 +321,8 @@
     
     
     .btn-two{
-      background:green;
-      color:white;
+      background:white;
+      color:red;
       padding:15px 35px;
       border:none;
       outline:none;
@@ -437,18 +422,14 @@
       }
   
       .btn-two{
-      background:green;
-      color:white;
+      background:white;
+      color:red;
       padding:13px 20px;
       border:none;
       outline:none;
       cursor:pointer;
       font-weight:bold;
       font-size:13px;
-      }
-
-      .btn-two:hover{
-          background:red;
       }
   }
 
@@ -542,18 +523,14 @@
       }
   
       .btn-two{
-      background:green;
-      color:white;
+      background:white;
+      color:red;
       padding:13px 20px;
       border:none;
       outline:none;
       cursor:pointer;
       font-weight:bold;
       font-size:13px;
-      }
-
-      .btn-two:hover{
-          background:red;
       }
 
   }
@@ -651,8 +628,8 @@
       }
   
       .btn-two{
-      background:green;
-      color:white;
+      background:white;
+      color:red;
       padding:13px 20px;
       border:none;
       outline:none;

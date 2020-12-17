@@ -6,16 +6,16 @@ const History = () => {
     return (
         <div className="div-history">
             <div className="history-heading">
-                <h3>HOW WE ACHIEVED SUCCESS</h3>
-                <h1>OUR HISTORY</h1>
-                <div className="underline"></div>
+                <h3 data-aos="fade-up">HOW WE ACHIEVED SUCCESS</h3>
+                <h1 data-aos="fade-down">OUR HISTORY</h1>
+                <div className="underline" data-aos="flip-right"></div>
             </div>
 
             <div className="history-center">
                 {history.map((data)=>{
                 const {id, icon, title, text} = data;
                 return(
-                    <div key={id} className="histories">
+                    <div key={id} className="histories" data-aos="zoom-in">
                         {icon}
                         <h2>{title}</h2>
                         <div className="underline"></div>

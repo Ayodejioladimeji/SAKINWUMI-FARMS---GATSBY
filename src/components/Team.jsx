@@ -7,11 +7,11 @@ const Team = () => {
         <div className="team">
            <div className="team-top">
                <div className="top-left">
-                   <h2>TEAM MEMBER</h2>
-                   <h1>Meet Our Great Team</h1>
+                   <h2 data-aos="fade-right">TEAM MEMBER</h2>
+                   <h1 data-aos="flip-up">Meet Our Great Team</h1>
                </div>
 
-               <div className="top-right">
+               <div className="top-right" data-aos="fade-down">
                    <p>Our team mission is to promote agricultural practices designed to provide abundantly healthy food, fiber and other services for all communities.</p>
                </div>
            </div>
@@ -21,9 +21,9 @@ const Team = () => {
                    const {id, name, icon, post, text} = data
 
                    return(
-                    <div className="div-team" key={id}>
+                    <div className="div-team" key={id} data-aos="fade-up">
                         {icon}
-                        <h2>{name}</h2>
+                        <h2 data-aos="fade-up">{name}</h2>
 
                         <div className="team-hover">
                                 <div className="hover-contain">
