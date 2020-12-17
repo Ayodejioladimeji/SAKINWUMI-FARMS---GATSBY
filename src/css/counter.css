@@ -12,6 +12,10 @@
     justify-content: space-evenly;
   }
   
+  /* .counter{
+    display:none;
+  } */
+
   .count-one img{
     height:75px;
     width:75px;
