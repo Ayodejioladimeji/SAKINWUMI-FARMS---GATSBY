@@ -8,9 +8,8 @@
     height:80vh;
     background-position:center;
     background-size:cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     /* display:none; */
-    background:rgba(0, 0, 0, 0.507);
   }
  
   .two-cover{
