@@ -49,7 +49,7 @@ const Testimonials = () => {
                         return(
                             <article className={position} key={id} >
                                 <img src={image} alt="slider" className="person-img" data-aos="fade-right"/>
-                               <div className="article-text" data-aos="flip-down">
+                               <div className="article-text" data-aos="fade-down">
                                     <h4 className="center-name">{name}</h4>
                                     <p className="title">{title}</p>
                                     <p className="text">{quote}</p>
@@ -58,11 +58,11 @@ const Testimonials = () => {
                         )
                     })}
                    
-                    <button className="prev" onClick={()=> setIndex(index - 1)} data-aos="flip-up">
+                    <button className="prev" onClick={()=> setIndex(index - 1)}>
                         <FiChevronLeft/>
                     </button>
 
-                    <button className="next" onClick={()=> setIndex(index + 1)} data-aos="flip-up">
+                    <button className="next" onClick={()=> setIndex(index + 1)}>
                         <FiChevronRight/>
                     </button>
                 </div>
