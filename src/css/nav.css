@@ -15,6 +15,7 @@
     align-items: center;
     height:5rem;
     background:#B66200;
+    display:none;
 }
 
 .nav-header{
