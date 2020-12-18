@@ -27,10 +27,10 @@ const Fourdata = () => {
   if(loading){
     return(
       <section className="loading">
-        <h1 data-aos="fade-up">SAKINWUMI FARMS</h1>
-        <h3 data-aos="fade-down">Biography Loading</h3>
+        <h1>SAKINWUMI FARMS</h1>
+        <h3>Biography Loading</h3>
         <img src={gear} alt="gear"/>
-        <p data-aos="fade-right">Please check your internet connection</p>
+        <p>Please check your internet connection</p>
       </section>
     )
   }
@@ -39,11 +39,11 @@ const Fourdata = () => {
     const {duties} = jobs[value]
     return (
       <section className="jobs">
-        <h3 data-aos="fade-left">FOUNDED IN 2018</h3>
-        <h1 data-aos="fade-up">OUR FARM</h1>
-        <h2 data-aos="flip-down">WHO WE ARE</h2>
+        <h3>FOUNDED IN 2018</h3>
+        <h1>OUR FARM</h1>
+        <h2>WHO WE ARE</h2>
 
-        <div className="jobs-center" data-aos="zoom-in">
+        <div className="jobs-center">
   
           <div className="btn-container">
             {jobs.map((item, index)=>{

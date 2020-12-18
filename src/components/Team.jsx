@@ -21,9 +21,9 @@ const Team = () => {
                    const {id, name, icon, post, text} = data
 
                    return(
-                    <div className="div-team" key={id} data-aos="fade-down">
+                    <div className="div-team" key={id}>
                         {icon}
-                        <h2 data-aos="fade-up">{name}</h2>
+                        <h2>{name}</h2>
 
                         <div className="team-hover">
                                 <div className="hover-contain">

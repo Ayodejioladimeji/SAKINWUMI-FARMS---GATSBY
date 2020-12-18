@@ -5,7 +5,7 @@ import {Link} from 'gatsby'
 const Five = () => {
     return (
         <div className="five">
-            <div className="five-header" data-aos="fade-up">
+            <div className="five-header">
                 <h3>WHAT WE OFFER</h3>
                 <h1>OUR GALLERY</h1>
                 <div className="underline"></div>
@@ -15,14 +15,14 @@ const Five = () => {
             {gallery.map((data)=>{
                        const {id, icon} = data
                         return(
-                            <div className="gallery-image" key={id} data-aos="fade-right">
+                            <div className="gallery-image" key={id}>
                                 {icon}
                             </div>
                         )
                    })}
             </div>
             <Link to="/gallery">
-                <button data-aos="fade-up">View Gallery</button>
+                <button>View Gallery</button>
             </Link>
         </div>
     )

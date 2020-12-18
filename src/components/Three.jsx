@@ -12,9 +12,9 @@ const Three = () => {
                     {table.map((data)=>{
                         const {id, icon, title, text} = data
                         return(
-                            <div className="table-one" key={id} data-aos="flip-left">
+                            <div className="table-one" key={id}>
                                 {icon}
-                                <div className="table-words" data-aos="fade-left">
+                                <div className="table-words">
                                     <h2>{title}</h2>
                                     <p>{text}</p>
                                 </div>
@@ -23,15 +23,15 @@ const Three = () => {
                     })}
                 </div>
                 <div className="three-center">
-                   <img src={sprout} alt="sprout" data-aos="fade-up"/>
-                   <p data-aos="fade-down">SAKINWUMI FARMS</p>
+                   <img src={sprout} alt="sprout"/>
+                   <p>SAKINWUMI FARMS</p>
 
-                   <div className="three-text" data-aos="fade-down">
+                   <div className="three-text">
                         <h1>Agriculture Is Providing The Best Solution of Eco Environment</h1>
                    </div>
                    <div className="three-buttons">
                         <Link to="/services">
-                            <button className="btn-two" data-aos="flip-up">SERVICES</button>
+                            <button className="btn-two">SERVICES</button>
                         </Link>
                    </div>
                 </div>

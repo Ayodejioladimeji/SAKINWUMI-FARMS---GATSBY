@@ -14,11 +14,11 @@ const Hero = () => {
                         return(
                             <div className="hero-image" key={id}>
                                 <div className="carousel-div">
-                                    <h3 data-aos="fade-right">{intro}</h3>
-                                    <h1 data-aos="fade-down">{title}</h1>
-                                    <p data-aos="fade-left">{text}</p>
+                                    <h3>{intro}</h3>
+                                    <h1>{title}</h1>
+                                    <p>{text}</p>
                                     <Link to="/about">
-                                        <button className="btn-explore" data-aos="fade-up">EXPLORE</button>
+                                        <button className="btn-explore">EXPLORE</button>
                                     </Link>
                                 </div>    
                                 {icon} 
