@@ -19,11 +19,11 @@ const Main = () => {
                 {services.map((service)=>{
                 const {id, icon, title, text} = service;
                 return(
-                    <div key={id} className="service" data-aos="fade-in">
+                    <div key={id} className="service" data-aos="zoom-in">
                         {icon}
                         <h4 data-aos="fade-up">{title}</h4>
-                        <div className="underline"></div>
-                        <p data-aos="zoom-in">{text}</p>
+                        <div className="underline" data-aos="fade-right"></div>
+                        <p data-aos="fade-down">{text}</p>
 
                         <div className="mouse-over">
                             {icon}
