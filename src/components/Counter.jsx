@@ -8,9 +8,9 @@ const Counter = () => {
                 {counter.map((data)=>{
                     const {id, icon, title, text} = data
                     return(
-                        <div className="count-one" key={id} data-aos="zoom-out">
-                            <div className="div-icon" fade-right>{icon}</div>
-                            <div className="count-words" data-aos="fade-up">
+                        <div className="count-one" key={id} data-aos="fade-down">
+                            <div className="div-icon" data-aos="fade-right">{icon}</div>
+                            <div className="count-words" data-aos="fade-down">
                                 <h2>{title}</h2>
                                 <p>{text}</p>
                             </div>
