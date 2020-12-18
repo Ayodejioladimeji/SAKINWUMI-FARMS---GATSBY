@@ -6,9 +6,9 @@ const Five = () => {
     return (
         <div className="five">
             <div className="five-header">
-                <h3>WHAT WE OFFER</h3>
-                <h1>OUR GALLERY</h1>
-                <div className="underline"></div>
+                <h3 data-aos="fade-down">WHAT WE OFFER</h3>
+                <h1 data-aos="fade-right">OUR GALLERY</h1>
+                <div data-aos="fade-up" className="underline"></div>
             </div>
 
             <div className="five-center">
