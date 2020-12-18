@@ -26,7 +26,7 @@ const Three = () => {
                    <img src={sprout} alt="sprout" data-aos="fade-up"/>
                    <p data-aos="fade-down">SAKINWUMI FARMS</p>
 
-                   <div className="three-text" data-aos="zoom-out">
+                   <div className="three-text" data-aos="fade-down">
                         <h1>Agriculture Is Providing The Best Solution of Eco Environment</h1>
                    </div>
                    <div className="three-buttons">

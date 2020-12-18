@@ -27,8 +27,8 @@ const Fourdata = () => {
   if(loading){
     return(
       <section className="loading">
-        <h1 data-aos="fade-left">SAKINWUMI FARMS</h1>
-        <h3 data-aos="fade-up">Biography Loading ...</h3>
+        <h1 data-aos="fade-up">SAKINWUMI FARMS</h1>
+        <h3 data-aos="fade-down">Biography Loading</h3>
         <img src={gear} alt="gear"/>
         <p data-aos="fade-right">Please check your internet connection</p>
       </section>

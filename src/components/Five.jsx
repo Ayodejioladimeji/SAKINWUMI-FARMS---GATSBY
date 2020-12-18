@@ -15,14 +15,14 @@ const Five = () => {
             {gallery.map((data)=>{
                        const {id, icon} = data
                         return(
-                            <div className="gallery-image" key={id} data-aos="zoom-out" data-aos-duration="500">
+                            <div className="gallery-image" key={id} data-aos="fade-right">
                                 {icon}
                             </div>
                         )
                    })}
             </div>
             <Link to="/gallery">
-                <button data-aos="fade-right">View Gallery</button>
+                <button data-aos="fade-up">View Gallery</button>
             </Link>
         </div>
     )

@@ -10,7 +10,6 @@
     background-size:cover;
     background-attachment: fixed;
     padding:150px 0;
-    /* display:none; */
   }
   
   .approach-center h1{
@@ -43,7 +42,6 @@
   
   .approach-center button:hover{
     background:green;
-    margin-left:10px;
   }
 
 
@@ -107,7 +105,6 @@
 
     .approach{
       height:100vh;
-      background-attachment: scroll;
     }
 
     .approach-center{

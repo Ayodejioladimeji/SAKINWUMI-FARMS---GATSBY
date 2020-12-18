@@ -8,7 +8,6 @@
     padding:20px;
     text-align:center;
     margin-bottom:30px;
-    /* display:none; */
   }
   
   .five-header{
@@ -51,9 +50,6 @@
     margin: 0 auto;
     max-width: 1470px;
     grid-template-columns: 1fr 1fr 1fr;
-    /* align-items:center;
-    padding:30px;
-    column-gap: 2rem;  */
   
   }
   
@@ -122,37 +118,24 @@
   @media screen and (max-width:320px){
     .five{
       padding:10px;
-      text-align:center;
     }
     
     .five-header{
-        text-align:center;
         padding:80px 30px 50px 30px;
     }
     
     .five-header h3{
-        font-family:monospace;
         font-size:20px;
-        font-weight:bold;
-        /* color:red; */
     }
     
     .five-header h1{
-        font-family:arial;
         font-size:30px;
-        font-weight:bold;
-        color:green;
     }
 
     
     .five button{
         padding:12px 25px;
-        background:red;
-        color:white;
-        border:none;
-        outline:none;
         margin-top:10px;
-        cursor: pointer;
     }
   }
 
@@ -160,19 +143,14 @@
   @media screen and (max-width:375px) and (min-width:321px){
     .five{
       padding:20px;
-      text-align:center;
       }
       
       .five-header{
-          text-align:center;
           padding:0 30px 50px 30px;
       }
       
       .five-header h3{
-          font-family:monospace;
           font-size:20px;
-          font-weight:bold;
-          /* color:red; */
       }
       
       .five-header h1{

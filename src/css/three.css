@@ -7,7 +7,6 @@
 .three{
     height:110vh;
     position: relative;
-    /* display:none; */
   }
   
   .three-cover{
@@ -72,7 +71,7 @@
   .three-center img{
     width:80px;
     height:80px;
-    border:1px solid white;
+    border:2px solid white;
     border-radius: 150px;
     padding:5px;
   }
@@ -341,7 +340,6 @@
       }
   
       .three-cover{
-      background:#B66200;
       height:130vh;
       }
   
@@ -360,25 +358,16 @@
       }
   
       .table-one{
-      background:white;
       padding:10px 20px;
-      display:flex;
-      align-items:center;
       }
   
       .table-one img{
-      height:60px;
-      width:60px;
-      border:2px solid green;
-      border-radius:150px;
-      padding:8px;
-      margin-right:10px;
+      height:55px;
+      width:55px;
       }
   
       .table-words h2{
-      font-family:monospace;
       font-size:20px;
-      color:red;
       }
   
       .table-words p{
@@ -389,47 +378,24 @@
       /* THE SECTION OF THE THREE CENTER */
       .three-center{
       width: 90vw;
-      margin: 0 auto;
-      max-width: 1200px;
-      position:absolute;
       top:45%;
-      right:0;
-      left:0;
-      text-align:center;
       }
   
       .three-center img{
-      width:80px;
-      height:80px;
-      border:2px solid white;
-      border-radius: 150px;
-      padding:5px;
+      width:70px;
+      height:70px;
       }
   
       .three-center p{
-      color:red;
-      font-family:cursive;
-      margin-bottom:50px;
-      font-weight:bold;
-      text-shadow:1px 1px white;
       font-size:20px;
       }
   
       .three-text h1{
-      color:white;
-      font-size:20px;
-      font-family:arial;
-      text-shadow:2px 2px red;
+      font-size:18px;
       }
   
       .btn-two{
-      background:white;
-      color:red;
-      padding:13px 20px;
-      border:none;
-      outline:none;
-      cursor:pointer;
-      font-weight:bold;
+      padding:13px 18px;
       font-size:13px;
       }
   }
@@ -441,7 +407,6 @@
       }
   
       .three-cover{
-      background:#B66200;
       height:120vh;
       }
   
@@ -460,26 +425,17 @@
       }
   
       .table-one{
-      background:white;
       padding:10px 20px;
-      display:flex;
-      align-items:center;
-      justify-content: space-around;
       }
   
       .table-one img{
       height:60px;
       width:60px;
-      border:2px solid green;
-      border-radius:150px;
-      padding:8px;
-      margin-right:10px;
+      margin-right:20px;
       }
   
       .table-words h2{
-      font-family:monospace;
       font-size:20px;
-      color:red;
       }
   
       .table-words p{
@@ -490,47 +446,24 @@
       /* THE SECTION OF THE THREE CENTER */
       .three-center{
       width: 90vw;
-      margin: 0 auto;
-      max-width: 1200px;
-      position:absolute;
       top:45%;
-      right:0;
-      left:0;
-      text-align:center;
       }
   
       .three-center img{
       width:80px;
       height:80px;
-      border:2px solid white;
-      border-radius: 150px;
-      padding:5px;
       }
   
       .three-center p{
-      color:red;
-      font-family:cursive;
-      margin-bottom:50px;
-      font-weight:bold;
-      text-shadow:1px 1px white;
       font-size:20px;
       }
   
       .three-text h1{
-      color:white;
       font-size:20px;
-      font-family:arial;
-      text-shadow:2px 2px red;
       }
   
       .btn-two{
-      background:white;
-      color:red;
       padding:13px 20px;
-      border:none;
-      outline:none;
-      cursor:pointer;
-      font-weight:bold;
       font-size:13px;
       }
 
@@ -540,14 +473,9 @@
   @media screen and (max-width:425px) and (min-width:376px){
     .three{
       height:130vh;
-      position: relative;
-      background-position:center;
-      background-size:cover;
-      background-attachment: fixed;
       }
   
       .three-cover{
-      background:#B66200;
       height:130vh;
       }
   
@@ -566,25 +494,17 @@
       }
   
       .table-one{
-      background:white;
       padding:10px 20px;
-      display:flex;
-      align-items:center;
       }
   
       .table-one img{
       height:60px;
       width:60px;
-      border:2px solid green;
-      border-radius:150px;
-      padding:8px;
-      margin-right:10px;
+      margin-right:20px;
       }
   
       .table-words h2{
-      font-family:monospace;
       font-size:20px;
-      color:red;
       }
   
       .table-words p{
@@ -595,47 +515,24 @@
       /* THE SECTION OF THE THREE CENTER */
       .three-center{
       width: 90vw;
-      margin: 0 auto;
-      max-width: 1200px;
-      position:absolute;
       top:45%;
-      right:0;
-      left:0;
-      text-align:center;
       }
   
       .three-center img{
       width:80px;
       height:80px;
-      border:1px solid white;
-      border-radius: 150px;
-      padding:5px;
       }
   
       .three-center p{
-      color:red;
-      font-family:cursive;
-      margin-bottom:50px;
-      font-weight:bold;
-      text-shadow:1px 1px white;
       font-size:20px;
       }
   
       .three-text h1{
-      color:white;
       font-size:22px;
-      font-family:arial;
-      text-shadow:1px 1px red;
       }
   
       .btn-two{
-      background:white;
-      color:red;
       padding:13px 20px;
-      border:none;
-      outline:none;
-      cursor:pointer;
-      font-weight:bold;
       font-size:13px;
       }
   

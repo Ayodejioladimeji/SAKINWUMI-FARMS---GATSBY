@@ -119,15 +119,6 @@
         width:45%;
     }
 
-    /* .hover-contain{
-        background:#B66200;
-        width:90%;
-        margin:0 auto;
-        padding:10px 0;
-        border-bottom:5px solid red;
-        font-size:15px;
-    } */
-
 }
 
 
@@ -200,11 +191,9 @@
     }
 
     .hover-contain{
-        background:#B66200;
         width:90%;
         margin:0 auto;
         padding:10px 0;
-        border-bottom:5px solid red;
         font-size:15px;
     }
 
@@ -218,8 +207,6 @@
     
     .top-left h1{
         font-size:23px;
-        color:green;
-        font-family:Tahoma;
     }
 
     .top-right{
@@ -248,11 +235,8 @@
 
     
     .hover-contain{
-        background:#B66200;
         width:90%;
-        margin:0 auto;
         padding:10px 0;
-        border-bottom:5px solid red;
         font-size:13px;
     }
 
@@ -266,8 +250,6 @@
     
     .top-left h1{
         font-size:23px;
-        color:green;
-        font-family:Tahoma;
     }
 
     .top-right{
@@ -295,11 +277,7 @@
 
     
     .hover-contain{
-        background:#B66200;
         width:90%;
-        margin:0 auto;
-        padding:10px 0;
-        border-bottom:5px solid red;
         font-size:13px;
     }
 
@@ -314,8 +292,6 @@
     
     .top-left h1{
         font-size:23px;
-        color:green;
-        font-family:Tahoma;
     }
 
     .top-right{
@@ -343,11 +319,7 @@
 
     
     .hover-contain{
-        background:#B66200;
         width:90%;
-        margin:0 auto;
-        padding:10px 0;
-        border-bottom:5px solid red;
         font-size:15px;
     }
 

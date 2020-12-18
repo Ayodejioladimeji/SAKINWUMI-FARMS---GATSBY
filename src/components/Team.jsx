@@ -21,7 +21,7 @@ const Team = () => {
                    const {id, name, icon, post, text} = data
 
                    return(
-                    <div className="div-team" key={id} data-aos="fade-up">
+                    <div className="div-team" key={id} data-aos="fade-down">
                         {icon}
                         <h2 data-aos="fade-up">{name}</h2>
 

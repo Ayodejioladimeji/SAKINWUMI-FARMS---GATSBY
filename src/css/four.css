@@ -6,7 +6,6 @@
 */
 .four{
     background:#fff;
-    /* display:none; */
   }
   
   .four-center {
@@ -274,23 +273,8 @@
 
   @media screen and (max-width:320px){
     .image-container{
-      background:#B66200;
       height:30rem;
       width:60%;
-      padding:30px;
-      }
-      
-      .image-container img{
-      width:220%;
-      height:100%;
-      object-fit:cover;
-      border:1px solid #B66200;
-      }
-  
-      .jobs{
-      position:relative;
-      padding-bottom:50px;
-      padding:20px 0;
       }
   
       .jobs h3{
@@ -335,19 +319,11 @@
       }
 
       .loading{
-          text-align:center;
           padding:100px 50px;
       }
       
       .loading h1{
-          color:green;
-          font-family:cursive;
           font-size:25px;
-      }
-
-      .loading h3{
-        font-family:Tahoma;
-        text-transform: lowercase;
       }
       
       .loading p{
@@ -360,22 +336,16 @@
   @media screen and (max-width:375px) and (min-width:321px){
     
     .image-container{
-      background:#B66200;
       height:30rem;
       width:60%;
-      padding:30px;
       }
       
       .image-container img{
       width:210%;
       height:100%;
-      object-fit:cover;
-      border:1px solid #B66200;
       }
   
       .jobs{
-      position:relative;
-      padding-bottom:50px;
       padding:20px 0;
       }
   
@@ -425,13 +395,10 @@
   }
 
   .loading{
-      text-align:center;
       padding:100px 50px;
   }
   
   .loading h1{
-      color:green;
-      font-family:cursive;
       font-size:25px;
   }
   
@@ -444,22 +411,16 @@
 
   @media screen and (max-width:425px) and (min-width:376px){
     .image-container{
-      background:#B66200;
       height:30rem;
       width:60%;
-      padding:30px;
       }
       
       .image-container img{
       width:200%;
       height:100%;
-      object-fit:cover;
-      border:1px solid #B66200;
       }
   
       .jobs{
-      position:relative;
-      padding-bottom:50px;
       padding:20px 0;
       }
   
@@ -507,13 +468,10 @@
 
     
   .loading{
-      text-align:center;
       padding:100px 50px;
   }
   
   .loading h1{
-      color:green;
-      font-family:cursive;
       font-size:25px;
   }
   
