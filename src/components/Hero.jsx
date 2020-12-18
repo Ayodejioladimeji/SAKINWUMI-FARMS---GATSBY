@@ -16,9 +16,9 @@ const Hero = () => {
                                 <div className="carousel-div">
                                     <h3 data-aos="fade-right">{intro}</h3>
                                     <h1 data-aos="fade-down">{title}</h1>
-                                    <p data-aos="fade-left">{text}</p>
+                                    <p data-aos="fade-up">{text}</p>
                                     <Link to="/about">
-                                        <button className="btn-explore" data-aos="fade-up">EXPLORE</button>
+                                        <button className="btn-explore" data-aos="fade-right">EXPLORE</button>
                                     </Link>
                                 </div>    
                                 {icon} 
