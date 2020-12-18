@@ -8,7 +8,7 @@
     height:80vh;
     background-position:center;
     background-size:cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* display:none; */
   }
  
@@ -190,7 +190,7 @@
 
   @media screen and (max-width:375px) and (min-width:321px){
     .two{
-      height:600px;
+      height:110vh;
       }
       
       .two-cover{
