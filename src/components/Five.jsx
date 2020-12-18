@@ -15,7 +15,7 @@ const Five = () => {
             {gallery.map((data)=>{
                        const {id, icon} = data
                         return(
-                            <div className="gallery-image" key={id}>
+                            <div className="gallery-image" key={id} data-aos="zoom-in">
                                 {icon}
                             </div>
                         )
