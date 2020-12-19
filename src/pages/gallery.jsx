@@ -1,25 +1,31 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import galleries from '../constants/galleries'
 
 const gallery = () => {
     return (
         <Layout>
-            {/* <figure class="snip1104">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample33.jpg" alt="sample33" />
-            <figcaption>
-                <h2>Jean  <span> Myers</span></h2>
-            </figcaption>
-            <a href="#"></a>
-            </figure>
+            <div className="gallery-header" style={{
+                color:'red',
+                fontFamily:'monospace',
+                fontSize:'35px',
+                textAlign:'center',
+                padding:"40px",
+                fontWeight:"bold"
+            }}>
+                Gallery
+            </div>
 
-            <figure class="snip1104">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample35.jpg" alt="sample35" />
-            <figcaption>
-                <h2>Tracy <span> Logan</span></h2>
-            </figcaption>
-            <a href="#"></a>
-            </figure> */}
-            Gallery under construction
+           <div className="five-center">
+            {galleries.map((data)=>{
+                    const {id, icon} = data
+                    return(
+                        <div className="gallery-image" key={id}>
+                            {icon}
+                        </div>
+                    )
+                })}
+           </div>
         </Layout>
     )
 }
