@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 
 const Two = () => {
     return (
-        <div className="two" style={{ backgroundImage:`url(${cock})` }}>
+        <div className="two" style={{ backgroundImage:`url(${cock})`,backgroundAttachment:'fixed', backgroundPosition:'center', backgroundSize:'cover' }}>
             <div className="two-cover">
                <div className="two-center">
                    <h1 data-aos="fade-right">CARE AT EVERY STAGE</h1>

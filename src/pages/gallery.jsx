@@ -5,15 +5,9 @@ import galleries from '../constants/galleries'
 const gallery = () => {
     return (
         <Layout>
-            <div className="gallery-header" style={{
-                color:'red',
-                fontFamily:'monospace',
-                fontSize:'35px',
-                textAlign:'center',
-                padding:"40px",
-                fontWeight:"bold"
-            }}>
-                Gallery
+
+            <div className="contact-board">
+                <h2>OUR GALLERY</h2>
             </div>
 
            <div className="five-center">

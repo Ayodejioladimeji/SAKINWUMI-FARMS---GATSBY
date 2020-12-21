@@ -6,11 +6,7 @@
   */
   .approach{
     height:80vh;
-    background-position:center;
-    background-size:cover;
-    background-attachment: fixed;
     padding:150px 0;
-    /* background:rgba(0, 0, 0, 0.822); */
   }
   
   .approach-center h1{

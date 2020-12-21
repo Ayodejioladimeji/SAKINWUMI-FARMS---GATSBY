@@ -4,7 +4,9 @@ import Layout from '../components/Layout'
 const services = () => {
     return (
         <Layout>
-            <h3>The section of the services component</h3>
+             <div className="contact-board">
+                <h2>SERVICES</h2>
+            </div>
         </Layout>
     )
 }

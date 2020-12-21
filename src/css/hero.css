@@ -17,7 +17,6 @@
     object-fit:cover;
     width:100%;
     height:100%;
-    /* background-attachment: fixed; */
   }
 
   .carousel-div{
@@ -292,13 +291,13 @@
 
 @media screen and (max-width:425px) and (min-width:376px){
   .hero{
-    height:32rem;
+    height:42rem;
     text-align:center;
     background:#B66200;
 }
   
 .hero-image{
-    height:26rem;
+    height:35rem;
 }
 
 .carousel-div h3{

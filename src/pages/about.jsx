@@ -4,7 +4,9 @@ import Layout from '../components/Layout'
 const about = () => {
     return (
         <Layout>
-            <h3>The section of the about component</h3>
+             <div className="contact-board">
+                <h2>ABOUT US</h2>
+            </div>
         </Layout>
     )
 }

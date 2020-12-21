@@ -136,6 +136,11 @@ height:45px;
     font-size: 1.2rem;
     }
 
+    .nav-header{
+        font-size:13px;
+        font-family:Tahoma;
+    }
+
 }
 
 @media screen and (max-width:375px) and (min-width:321px){
@@ -143,4 +148,19 @@ height:45px;
     font-size: 1.3rem;
     }
 
+    .nav-header{
+        font-size:13px;
+        font-family:Tahoma;
+    }
+
 }
+
+
+@media screen and (max-width:425px) and (min-width:376px){
+    .nav-header{
+        font-size:14px;
+        font-family:Tahoma;
+    }
+
+}
+

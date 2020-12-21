@@ -15,6 +15,17 @@ Contact Page
     margin:0 auto;
   }
 
+  .contact-board{
+    background:#B66200;
+    height:300px;
+    border-top:3px solid white;
+    color:white;
+    text-align:center;
+    padding:100px 0 ;
+    font-size:25px;
+    font-family:arial;
+  }
+
   .contact-page {
     display: grid;
     place-items: center;

@@ -6,6 +6,10 @@ import Layout from '../components/Layout'
 const contact = () => {
     return (
         <Layout>
+            <div className="contact-board">
+                <h2>CONTACT</h2>
+            </div>
+            
             <p className="contact-header">We are available 24/7 by fax, e-mail or by phone. You can also use our
                 quick contact form to ask a question about our products.
             </p>
